@@ -1,5 +1,4 @@
 /* eslint-disable prettier/prettier */
-/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react-native/no-inline-styles */
 /* eslint-disable react/no-unstable-nested-components */
 import React, { useEffect, useState } from 'react';
@@ -9,47 +8,42 @@ import { stocks } from '../data/stockData';
 import { normalize } from '../utilis/dimensions';
 import StockCard from '../components/StockCard';
 
-const TopGainers = ({ data, refreshing, onRefresh }) => (
+const StockList = ({ data, refreshing, onRefresh }) => (
     <FlatList data={data}
         keyExtractor={(item) => item.ticker}
         renderItem={({ item }) => <StockCard stock={item} />}
         numColumns={2}
         columnWrapperStyle={{ justifyContent: 'space-between' }}
-        contentContainerStyle={styles.gridContainerStyle}
-        refreshControl={<RefreshControl refreshing={refreshing} onRefresh={onRefresh} />} />
-);
-
-const TopLosers = ({ data, refreshing, onRefresh }) => (
-    <FlatList data={data}
-        keyExtractor={(item) => item.ticker}
-        renderItem={({ item }) => <StockCard stock={item} />}
-        numColumns={2}
-        columnWrapperStyle={{ justifyContent: 'space-between' }}
-        contentContainerStyle={styles.gridContainerStyle}
-        refreshControl={<RefreshControl refreshing={refreshing} onRefresh={onRefresh} />} />
+        contentContainerStyle={styles.contentContainerStyle}
+        refreshControl={
+            <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
+        }
+    />
 );
 
 const ExploreScreen = () => {
     const [index, setIndex] = useState(0);
-    const [data] = useState({ Gainers: [], Losers: [] });
+    const [data, setData] = useState({ gainers: [], losers: [] });
     const [loading, setLoading] = useState(true);
     const [refreshing, setRefreshing] = useState(false);
     const [routes] = useState([
-        { key: 'Gainers', title: 'Top Gainers' },
-        { key: 'Losers', title: 'Top Losers' },
+        { key: 'gainers', title: 'Top Gainers' },
+        { key: 'losers', title: 'Top Losers' },
     ]);
 
-    const fetchData = async () => {
+    const fetchData = () => {
         setLoading(true);
+        let gainers = [];
+        let losers = [];
         try {
             stocks.map((item) => {
                 if (item.priceChangePercentage > 0) {
-                    data.Gainers.push(item);
-                }
-                else {
-                    data.Losers.push(item);
+                    gainers.push(item);
+                } else {
+                    losers.push(item);
                 }
             });
+            setData({ gainers: gainers, losers: losers });
         } catch (error) {
             console.log(error);
         } finally {
@@ -63,12 +57,17 @@ const ExploreScreen = () => {
 
     const onRefresh = () => {
         setRefreshing(true);
-        fetchData().then(() => setRefreshing(false));
+        fetchData();
+        setRefreshing(false);
     };
 
     const renderScene = SceneMap({
-        Gainers: () => <TopGainers data={data.Gainers} refreshing={refreshing} onRefresh={onRefresh} />,
-        Losers: () => <TopLosers data={data.Losers} refreshing={refreshing} onRefresh={onRefresh} />,
+        gainers: () => (
+            <StockList data={data.gainers} refreshing={refreshing} onRefresh={onRefresh} />
+        ),
+        losers: () => (
+            <StockList data={data.losers} refreshing={refreshing} onRefresh={onRefresh} />
+        ),
     });
 
     if (loading) {
@@ -84,25 +83,29 @@ const ExploreScreen = () => {
                 <TabBar {...props}
                     labelStyle={styles.labelStyle}
                     indicatorStyle={{ backgroundColor: 'trainsparent' }}
-                    style={{ backgroundColor: '#ffffff' }} />
+                    style={styles.tabStyle} />
             )} style={{ backgroundColor: '#ffffff' }} />
     );
 };
 
 const styles = StyleSheet.create({
+    contentContainerStyle: {
+        paddingVertical: normalize(15),
+        paddingHorizontal: normalize(10),
+    },
     loadingStyle: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
     },
-    gridContainerStyle: {
-        paddingVertical: normalize(15),
-        paddingHorizontal: normalize(10),
-    },
     labelStyle: {
         fontSize: 14,
         fontWeight: 'bold',
         color: '#000000',
+    },
+    tabStyle: {
+        height: normalize(50),
+        backgroundColor: '#ffffff',
     },
 });
 

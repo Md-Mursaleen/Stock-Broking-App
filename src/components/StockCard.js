@@ -1,12 +1,17 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
-import { View, Text, StyleSheet, Image } from 'react-native';
+import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
 import { normalize } from '../utilis/dimensions';
+import { useNavigation } from '@react-navigation/native';
 
 const StockCard = ({ stock }) => {
+    const navigation = useNavigation();
+
     return (
-        <View style={styles.cardContainer}>
+        <TouchableOpacity onPress={() => navigation.navigate('Product', {
+            ticker: stock.ticker,
+        })} style={styles.cardContainer}>
             <View style={styles.imageContainer}>
                 <Image source={{ uri: stock.image }} style={styles.imageStyle} />
             </View>
@@ -16,7 +21,8 @@ const StockCard = ({ stock }) => {
                     <Text style={styles.priceTextStyle}>${stock.price}</Text>
                     <View style={styles.percentageChangeContainer}>
                         <Text style={[styles.percentageChangeTextStyle,
-                        { color: parseFloat(stock.priceChangePercentage) > 0 ? '#008000' : '#ff0000' }]}> {parseFloat(stock.priceChangePercentage) > 0 ? '▲' : '▼'}</Text>
+                        { color: parseFloat(stock.priceChangePercentage) > 0 ? '#008000' : '#ff0000' }]}>
+                            {parseFloat(stock.priceChangePercentage) > 0 ? '▲' : '▼'}</Text>
                         <Text style={[styles.percentageChangeTextStyle,
                         { color: parseFloat(stock.priceChangePercentage) > 0 ? '#008000' : '#ff0000' }]}>
                             {parseFloat(stock.priceChangePercentage).toFixed(2)}%
@@ -24,7 +30,7 @@ const StockCard = ({ stock }) => {
                     </View>
                 </View>
             </View>
-        </View>
+        </TouchableOpacity>
     );
 };
 
@@ -34,23 +40,24 @@ const styles = StyleSheet.create({
         padding: normalize(10),
         margin: normalize(5),
         width: 'auto',
-        height: normalize(170),
+        height: 'auto',
         flexDirection: 'column',
         alignItems: 'flex-start',
         justifyContent: 'flex-start',
         backgroundColor: '#ffffff',
-        borderWidth: 1,
-        borderColor: '#e2e2e2',
+        borderWidth: 0.8,
+        borderColor: '#eeeeee',
         borderRadius: 5,
+        elevation: 1,
     },
     imageContainer: {
-        width: normalize(55),
-        height: normalize(55),
+        width: normalize(56),
+        height: normalize(56),
         alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: '#eeeeee',
         borderWidth: StyleSheet.hairlineWidth,
-        borderColor: '#d3d3d3',
+        borderColor: '#eeeeee',
         borderRadius: 50,
     },
     imageStyle: {
@@ -81,13 +88,9 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'flex-start',
     },
-    iconTextStyle: {
-        fontSize: 14,
-        fontWeight: '400',
-    },
     percentageChangeTextStyle: {
         fontSize: 14,
-        fontWeight: '400',
+        fontWeight: '500',
     },
 });
 
