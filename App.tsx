@@ -23,5 +23,4 @@ export default App;
 
 //api connect with the explore screen
 //serach func if possible
-//UI change in product screen
 //make a separate api call if required in product screeen to fetch more data about the stocks as in original UI.

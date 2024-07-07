@@ -50,13 +50,17 @@ const ProductScreen = ({ route }) => {
     }
 
     const chartData = {
-        // labels: stockData.values.map(value => new Date(value.).toLocaleDateString()),
+        labels: stockData.values.slice([0], [15]).map(value => new Date(value.datetime).getDate()),
         datasets: [
             {
                 data: stockData.values.map(value => parseFloat(value.close)),
             },
         ],
     };
+
+    function truncate(string, n) {
+        return string?.length > n ? string.substr(0, n - 1) + '..' : string;
+    }
 
     return (
         <ScrollView style={styles.container}>
@@ -87,19 +91,22 @@ const ProductScreen = ({ route }) => {
             <View style={styles.lineChartContainer}>
                 <LineChart data={chartData}
                     width={screenWidth - 40}
-                    height={250}
+                    height={260}
                     yAxisLabel="$"
                     chartConfig={{
                         backgroundColor: '#ffffff',
                         backgroundGradientFrom: '#ffffff',
                         backgroundGradientTo: '#ffffff',
                         decimalPlaces: 2,
-                        color: () => 'rgba(194, 194, 194, 255)',
-                        labelColor: () => 'rgba(194, 194, 194, 255)',
+                        color: (opacity = 1) => `rgba(108, 122, 137, ${opacity})`,
+                        labelColor: () => '#000000',
                         propsForDots: {
-                            r: '6',
+                            r: '0',
                             strokeWidth: '2',
                             stroke: '#ffffff',
+                        },
+                        propsForBackgroundLines: {
+                            strokeDasharray: '',
                         },
                     }}
                     bezier
@@ -123,7 +130,7 @@ const ProductScreen = ({ route }) => {
                         <Text style={styles.detailTextStyle}>Industry: {stock.industry}</Text>
                     </View>
                     <View style={styles.detailSubContainer}>
-                        <Text style={styles.detailTextStyle}>Sector: {stock.sector}</Text>
+                        <Text style={styles.detailTextStyle}>Sector: {truncate(stock.sector, 15)}</Text>
                     </View>
                 </View>
             </View>
@@ -232,6 +239,8 @@ const styles = StyleSheet.create({
     },
     detailsSubContainer: {
         marginTop: normalize(18),
+        flexDirection: 'row',
+        alignItems: 'center',
         gap: 10,
     },
     detailSubContainer: {
