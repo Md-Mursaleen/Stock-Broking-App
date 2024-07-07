@@ -33,7 +33,7 @@ To run this application locally, follow these steps:
 Before running the application, make sure to configure your Alpha Vantage API key in the source code.
 
 1. Obtain an API key from Alpha Vantage: [Alpha Vantage API](https://www.alphavantage.co/support/#api-key)
-2. Replace `YOUR_API_KEY` in `src/services.api.js` with your actual API key.
+2. Replace `YOUR_API_KEY` in `src/utilis/env.js` with your actual API key.
 
 ```javascript
 const ALPHA_API_KEY = 'YOUR_API_KEY';
