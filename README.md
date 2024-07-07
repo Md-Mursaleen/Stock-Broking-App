@@ -1,6 +1,6 @@
 # Stock Broking App
 
-This is a React Native application that allows users to view stock data fetched from the Alpha Vantage API. It includes a product screen where users can search for stocks by symbol and view detailed information about each stock.
+This is a React Native application that allows users to view stock data fetched from the Alpha Vantage API. It includes a product screen where users can search for stocks by symbol and view detailed information about each stock and changes in price through charts. 
 
 ## Features
 
