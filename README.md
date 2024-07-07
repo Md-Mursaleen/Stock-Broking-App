@@ -10,8 +10,10 @@ This is a React Native application that allows users to view stock data fetched 
 
 ## Screenshots
 
-![Screenshot1](output1.png)
-![Screenshot2](output2.png)
+![Screenshot1](image1.png)
+![Screenshot2](image2.png)
+![Screenshot3](image3.png)
+![Screenshot4](image4.png)
 
 ## Installation
 
