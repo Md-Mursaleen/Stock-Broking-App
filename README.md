@@ -1,26 +1,27 @@
-# Stock Viewer App
+# Stock Broking App
 
 This is a React Native application that allows users to view stock data fetched from the Alpha Vantage API. It includes a product screen where users can search for stocks by symbol and view detailed information about each stock.
 
 ## Features
 
-- **Product Screen**: Displays stock data including symbol, price, and other relevant information.
+- **Explore Screen**: Allows users to explore different stocks which are divided into two sections as Top Gainers and Top Losers.
+- **Product Screen**: Displays stock data including symbol, price and other relevant information.
 - **Search Functionality**: Users can search for stocks using the Alpha Vantage API by entering the stock symbol.
-- **Detailed Stock Information**: Provides detailed information for each stock, such as open price, high price, low price, and current price.
+- **Detailed Stock Information**: Provides detailed information for each stock, such as open price, high price, low price and current price.
 
 ## Screenshots
 
-![Screenshot1](image1.png)
-![Screenshot2](image2.png)
-![Screenshot3](image3.png)
-![Screenshot4](image4.png)
+![Screenshot1](image1.jpg)
+![Screenshot2](image2.jpg)
+![Screenshot3](image3.jpg)
+![Screenshot4](image4.jpg)
 
 ## Installation
 
 To run this application locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/stock-viewer-app.git`
-2. Navigate into the project directory: `cd stock-viewer-app`
+1. Clone the repository: `git clone https://github.com/Md-Mursaleen/Stock-Broking-App.git`
+2. Navigate into the project directory: `cd StockBrokingApp`
 3. Install dependencies: `npm install` or `yarn install`
 4. Start the Metro bundler: `npm start` or `yarn start`
 5. Run the application on Android or iOS:
@@ -32,7 +33,7 @@ To run this application locally, follow these steps:
 Before running the application, make sure to configure your Alpha Vantage API key in the source code.
 
 1. Obtain an API key from Alpha Vantage: [Alpha Vantage API](https://www.alphavantage.co/support/#api-key)
-2. Replace `YOUR_API_KEY` in `src/api/StockService.js` with your actual API key.
+2. Replace `YOUR_API_KEY` in `src/services.api.js` with your actual API key.
 
 ```javascript
-const API_KEY = 'YOUR_API_KEY';
+const ALPHA_API_KEY = 'YOUR_API_KEY';
