@@ -1,5 +1,6 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable react-native/no-inline-styles */
+/* eslint-disable quotes */
 import { Text } from "react-native-paper";
 
 export const stocks = [
@@ -25,7 +26,7 @@ export const stocks = [
         value: 48844000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$48.84B</Text>,
@@ -34,7 +35,7 @@ export const stocks = [
         value: 38016000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$38.02B</Text>,
@@ -43,7 +44,7 @@ export const stocks = [
         value: 34940000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$34.94B</Text>,
@@ -52,7 +53,7 @@ export const stocks = [
         value: 23646000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$23.65B</Text>,
@@ -61,7 +62,7 @@ export const stocks = [
         value: 29965000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$29.97B</Text>,
@@ -72,7 +73,7 @@ export const stocks = [
         value: 108047000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$108.05B</Text>,
@@ -81,7 +82,7 @@ export const stocks = [
         value: 112436000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$112.44B</Text>,
@@ -90,7 +91,7 @@ export const stocks = [
         value: 124719000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$124.72B</Text>,
@@ -99,7 +100,7 @@ export const stocks = [
         value: 120069000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$120.07B</Text>,
@@ -108,7 +109,7 @@ export const stocks = [
         value: 101266000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$101.27B</Text>,
@@ -119,7 +120,7 @@ export const stocks = [
         value: 55256000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$55.26B</Text>,
@@ -128,7 +129,7 @@ export const stocks = [
         value: 57411000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$57.41B</Text>,
@@ -137,7 +138,7 @@ export const stocks = [
         value: 94680000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$94.68B</Text>,
@@ -146,7 +147,7 @@ export const stocks = [
         value: 99803000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$99.80B</Text>,
@@ -155,7 +156,7 @@ export const stocks = [
         value: 96995000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$97.00B</Text>,
@@ -166,7 +167,7 @@ export const stocks = [
         value: 0.3781776810903472,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>37.82%</Text>,
@@ -175,7 +176,7 @@ export const stocks = [
         value: 0.38233247727810865,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>38.23%</Text>,
@@ -184,7 +185,7 @@ export const stocks = [
         value: 0.4177935962516778,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>41.78%</Text>,
@@ -193,7 +194,7 @@ export const stocks = [
         value: 0.43309630561360085,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>43.31%</Text>,
@@ -202,7 +203,7 @@ export const stocks = [
         value: 0.4413112957720756,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>44.13%</Text>,
@@ -213,7 +214,7 @@ export const stocks = [
         value: 0.21238094505984456,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>21.24%</Text>,
@@ -222,7 +223,7 @@ export const stocks = [
         value: 0.20913611278072236,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>20.91%</Text>,
@@ -231,7 +232,7 @@ export const stocks = [
         value: 0.2588179335569424,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>25.88%</Text>,
@@ -240,7 +241,7 @@ export const stocks = [
         value: 0.2530964070519973,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>25.31%</Text>,
@@ -249,7 +250,7 @@ export const stocks = [
         value: 0.2530623426432028,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>25.31%</Text>,
@@ -260,7 +261,7 @@ export const stocks = [
         value: 58896000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$58.90B</Text>,
@@ -269,7 +270,7 @@ export const stocks = [
         value: 73365000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$73.37B</Text>,
@@ -278,7 +279,7 @@ export const stocks = [
         value: 92953000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$92.95B</Text>,
@@ -287,7 +288,7 @@ export const stocks = [
         value: 111443000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$111.44B</Text>,
@@ -296,7 +297,7 @@ export const stocks = [
         value: 110543000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$110.54B</Text>,
@@ -307,7 +308,7 @@ export const stocks = [
         value: 265595000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$265.60B</Text>,
@@ -316,7 +317,7 @@ export const stocks = [
         value: 260174000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$260.17B</Text>,
@@ -325,7 +326,7 @@ export const stocks = [
         value: 274515000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$274.52B</Text>,
@@ -334,7 +335,7 @@ export const stocks = [
         value: 365817000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$365.82B</Text>,
@@ -343,7 +344,7 @@ export const stocks = [
         value: 394328000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$394.33B</Text>,
@@ -354,7 +355,7 @@ export const stocks = [
         value: 0.6106445053487756,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => (
@@ -367,7 +368,7 @@ export const stocks = [
         value: 0.8786635853012749,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>87.87%</Text>,
@@ -376,7 +377,7 @@ export const stocks = [
         value: 1.5007132667617689,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>150.07%</Text>,
@@ -385,7 +386,7 @@ export const stocks = [
         value: 1.9695887275023682,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>196.96%</Text>,
@@ -394,7 +395,7 @@ export const stocks = [
         value: 1.5607601454639075,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>156.08%</Text>,
@@ -405,7 +406,7 @@ export const stocks = [
         value: 0.2746157613037913,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>27.46%</Text>,
@@ -414,7 +415,7 @@ export const stocks = [
         value: 0.3033831282952548,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>30.34%</Text>,
@@ -423,7 +424,7 @@ export const stocks = [
         value: 0.48309913489209433,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>48.31%</Text>,
@@ -432,7 +433,7 @@ export const stocks = [
         value: 0.6008713457059057,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>60.09%</Text>,
@@ -441,7 +442,7 @@ export const stocks = [
         value: 0.551446146423833,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>55.14%</Text>,
@@ -470,7 +471,7 @@ export const stocks = [
         value: 31750000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$31.75B</Text>,
@@ -479,7 +480,7 @@ export const stocks = [
         value: 36092000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$36.09B</Text>,
@@ -488,7 +489,7 @@ export const stocks = [
         value: 42122000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$42.12B</Text>,
@@ -497,7 +498,7 @@ export const stocks = [
         value: 36220000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$36.22B</Text>,
@@ -506,7 +507,7 @@ export const stocks = [
         value: 53888000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$53.89B</Text>,
@@ -517,7 +518,7 @@ export const stocks = [
         value: 39787000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$39.79B</Text>,
@@ -526,7 +527,7 @@ export const stocks = [
         value: 63205000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$63.21B</Text>,
@@ -535,7 +536,7 @@ export const stocks = [
         value: 84389000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$84.39B</Text>,
@@ -544,7 +545,7 @@ export const stocks = [
         value: 116395000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$116.40B</Text>,
@@ -553,7 +554,7 @@ export const stocks = [
         value: 140118000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$140.12B</Text>,
@@ -564,7 +565,7 @@ export const stocks = [
         value: 10073000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$10.07B</Text>,
@@ -573,7 +574,7 @@ export const stocks = [
         value: 11588000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$11.59B</Text>,
@@ -582,7 +583,7 @@ export const stocks = [
         value: 21331000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$21.33B</Text>,
@@ -591,7 +592,7 @@ export const stocks = [
         value: 33364000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$33.36B</Text>,
@@ -600,7 +601,7 @@ export const stocks = [
         value: -2722000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>-$2.72B</Text>,
@@ -611,7 +612,7 @@ export const stocks = [
         value: 0.4024741612885219,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>40.25%</Text>,
@@ -620,7 +621,7 @@ export const stocks = [
         value: 0.4099001147860061,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>40.99%</Text>,
@@ -629,7 +630,7 @@ export const stocks = [
         value: 0.3956779186870571,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>39.57%</Text>,
@@ -638,7 +639,7 @@ export const stocks = [
         value: 0.420325144416396,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>42.03%</Text>,
@@ -647,7 +648,7 @@ export const stocks = [
         value: 0.43805339865326287,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>43.81%</Text>,
@@ -658,7 +659,7 @@ export const stocks = [
         value: 0.04325273630559026,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>4.33%</Text>,
@@ -667,7 +668,7 @@ export const stocks = [
         value: 0.04130870306072251,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>4.13%</Text>,
@@ -676,7 +677,7 @@ export const stocks = [
         value: 0.05525249699531684,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>5.53%</Text>,
@@ -685,7 +686,7 @@ export const stocks = [
         value: 0.07101412875514557,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>7.10%</Text>,
@@ -694,7 +695,7 @@ export const stocks = [
         value: -0.005295895000418302,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>-0.53%</Text>,
@@ -705,7 +706,7 @@ export const stocks = [
         value: 17296000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$17.30B</Text>,
@@ -714,7 +715,7 @@ export const stocks = [
         value: 21653000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$21.65B</Text>,
@@ -723,7 +724,7 @@ export const stocks = [
         value: 25924000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$25.92B</Text>,
@@ -732,7 +733,7 @@ export const stocks = [
         value: -14726000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>-$14.73B</Text>,
@@ -741,7 +742,7 @@ export const stocks = [
         value: -16893000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>-$16.89B</Text>,
@@ -752,7 +753,7 @@ export const stocks = [
         value: 232887000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$232.89B</Text>,
@@ -761,7 +762,7 @@ export const stocks = [
         value: 280522000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$280.52B</Text>,
@@ -770,7 +771,7 @@ export const stocks = [
         value: 386064000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$386.06B</Text>,
@@ -779,7 +780,7 @@ export const stocks = [
         value: 469822000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$469.82B</Text>,
@@ -788,7 +789,7 @@ export const stocks = [
         value: 513983000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$513.98B</Text>,
@@ -799,7 +800,7 @@ export const stocks = [
         value: 0.231302670555007,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>23.13%</Text>,
@@ -808,7 +809,7 @@ export const stocks = [
         value: 0.1867225265871737,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>18.67%</Text>,
@@ -817,7 +818,7 @@ export const stocks = [
         value: 0.22837351719412444,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>22.84%</Text>,
@@ -826,7 +827,7 @@ export const stocks = [
         value: 0.2413396506202756,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>24.13%</Text>,
@@ -835,7 +836,7 @@ export const stocks = [
         value: -0.018638346240490815,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>-1.86%</Text>,
@@ -846,7 +847,7 @@ export const stocks = [
         value: 0.13177801118219337,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>13.18%</Text>,
@@ -855,7 +856,7 @@ export const stocks = [
         value: 0.1058019732821095,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>10.58%</Text>,
@@ -864,7 +865,7 @@ export const stocks = [
         value: 0.11754530054925312,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>11.75%</Text>,
@@ -873,7 +874,7 @@ export const stocks = [
         value: 0.0894017960134108,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>8.94%</Text>,
@@ -882,7 +883,7 @@ export const stocks = [
         value: 0.03985915217943127,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>3.99%</Text>,
@@ -911,7 +912,7 @@ export const stocks = [
         value: 649950000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$649.95M</Text>,
@@ -920,7 +921,7 @@ export const stocks = [
         value: 1111286000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$1.11B</Text>,
@@ -929,7 +930,7 @@ export const stocks = [
         value: 893219000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$893.22M</Text>,
@@ -938,7 +939,7 @@ export const stocks = [
         value: 620813000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$620.81M</Text>,
@@ -947,7 +948,7 @@ export const stocks = [
         value: 671707000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$671.71M</Text>,
@@ -958,7 +959,7 @@ export const stocks = [
         value: 35431000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$35.43M</Text>,
@@ -967,7 +968,7 @@ export const stocks = [
         value: 83022000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$83.02M</Text>,
@@ -976,7 +977,7 @@ export const stocks = [
         value: 72397000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$72.40M</Text>,
@@ -985,7 +986,7 @@ export const stocks = [
         value: 56527000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$56.53M</Text>,
@@ -994,7 +995,7 @@ export const stocks = [
         value: 43964000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$43.96M</Text>,
@@ -1005,7 +1006,7 @@ export const stocks = [
         value: 328115000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$328.12M</Text>,
@@ -1014,7 +1015,7 @@ export const stocks = [
         value: 859867000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$859.87M</Text>,
@@ -1023,7 +1024,7 @@ export const stocks = [
         value: 634557000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$634.56M</Text>,
@@ -1032,7 +1033,7 @@ export const stocks = [
         value: 840854000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$840.85M</Text>,
@@ -1041,7 +1042,7 @@ export const stocks = [
         value: 1352446000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$1.35B</Text>,
@@ -1052,7 +1053,7 @@ export const stocks = [
         value: 0.6383735193730132,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>63.84%</Text>,
@@ -1061,7 +1062,7 @@ export const stocks = [
         value: 0.6406164833040612,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>64.06%</Text>,
@@ -1070,7 +1071,7 @@ export const stocks = [
         value: 0.6394296987458965,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>63.94%</Text>,
@@ -1079,7 +1080,7 @@ export const stocks = [
         value: 0.6379767282432344,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>63.80%</Text>,
@@ -1088,7 +1089,7 @@ export const stocks = [
         value: 0.6107068433870235,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>61.07%</Text>,
@@ -1099,7 +1100,7 @@ export const stocks = [
         value: 0.15251451517615064,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>15.25%</Text>,
@@ -1108,7 +1109,7 @@ export const stocks = [
         value: 0.35668679631609995,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>35.67%</Text>,
@@ -1117,7 +1118,7 @@ export const stocks = [
         value: 0.2738095854519847,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>27.38%</Text>,
@@ -1126,7 +1127,7 @@ export const stocks = [
         value: 0.2852250497534461,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>28.52%</Text>,
@@ -1135,7 +1136,7 @@ export const stocks = [
         value: 0.30868530188459614,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>30.87%</Text>,
@@ -1146,7 +1147,7 @@ export const stocks = [
         value: 479289000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$479.29M</Text>,
@@ -1155,7 +1156,7 @@ export const stocks = [
         value: 947283000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$947.28M</Text>,
@@ -1164,7 +1165,7 @@ export const stocks = [
         value: 719730000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$719.73M</Text>,
@@ -1173,7 +1174,7 @@ export const stocks = [
         value: 951120000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$951.12M</Text>,
@@ -1182,7 +1183,7 @@ export const stocks = [
         value: 448169000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$448.17M</Text>,
@@ -1193,7 +1194,7 @@ export const stocks = [
         value: 2151369000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.15B</Text>,
@@ -1202,7 +1203,7 @@ export const stocks = [
         value: 2410706000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.41B</Text>,
@@ -1211,7 +1212,7 @@ export const stocks = [
         value: 2317512000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.32B</Text>,
@@ -1220,7 +1221,7 @@ export const stocks = [
         value: 2948037000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.95B</Text>,
@@ -1229,7 +1230,7 @@ export const stocks = [
         value: 4381310000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$4.38B</Text>,
@@ -1240,7 +1241,7 @@ export const stocks = [
         value: 0.15308233829696802,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>15.31%</Text>,
@@ -1249,7 +1250,7 @@ export const stocks = [
         value: 0.297050180917723,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>29.71%</Text>,
@@ -1258,7 +1259,7 @@ export const stocks = [
         value: 0.1911148751720858,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>19.11%</Text>,
@@ -1267,7 +1268,7 @@ export const stocks = [
         value: 0.21134419142411903,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>21.13%</Text>,
@@ -1276,7 +1277,7 @@ export const stocks = [
         value: 0.2768104432828062,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>27.68%</Text>,
@@ -1287,7 +1288,7 @@ export const stocks = [
         value: 0.11042186178917292,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>11.04%</Text>,
@@ -1296,7 +1297,7 @@ export const stocks = [
         value: 0.22456117468959505,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>22.46%</Text>,
@@ -1305,7 +1306,7 @@ export const stocks = [
         value: 0.17621281615523401,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>17.62%</Text>,
@@ -1314,7 +1315,7 @@ export const stocks = [
         value: 0.19996086147991177,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>20.00%</Text>,
@@ -1323,7 +1324,7 @@ export const stocks = [
         value: 0.27857345993955723,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>27.86%</Text>,
@@ -1352,7 +1353,7 @@ export const stocks = [
         value: 184898000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$184.90B</Text>,
@@ -1361,7 +1362,7 @@ export const stocks = [
         value: 168667000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$168.67B</Text>,
@@ -1370,7 +1371,7 @@ export const stocks = [
         value: 387009000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$387.01B</Text>,
@@ -1379,7 +1380,7 @@ export const stocks = [
         value: 355365000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$355.37B</Text>,
@@ -1388,7 +1389,7 @@ export const stocks = [
         value: 237462000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$237.46B</Text>,
@@ -1399,7 +1400,7 @@ export const stocks = [
         value: 249529000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$249.53B</Text>,
@@ -1408,7 +1409,7 @@ export const stocks = [
         value: 265060000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$265.06B</Text>,
@@ -1417,7 +1418,7 @@ export const stocks = [
         value: 282255000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$282.26B</Text>,
@@ -1426,7 +1427,7 @@ export const stocks = [
         value: 303870000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$303.87B</Text>,
@@ -1435,7 +1436,7 @@ export const stocks = [
         value: 302914000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$302.91B</Text>,
@@ -1446,7 +1447,7 @@ export const stocks = [
         value: 28147000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$28.15B</Text>,
@@ -1455,7 +1456,7 @@ export const stocks = [
         value: 27430000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$27.43B</Text>,
@@ -1464,7 +1465,7 @@ export const stocks = [
         value: 17894000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$17.89B</Text>,
@@ -1473,7 +1474,7 @@ export const stocks = [
         value: 31978000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$31.98B</Text>,
@@ -1482,7 +1483,7 @@ export const stocks = [
         value: 27528000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$27.53B</Text>,
@@ -1493,7 +1494,7 @@ export const stocks = [
         value: 1.0024939573720062,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.25%</Text>,
@@ -1502,7 +1503,7 @@ export const stocks = [
         value: 1,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -1511,7 +1512,7 @@ export const stocks = [
         value: 1,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -1520,7 +1521,7 @@ export const stocks = [
         value: 1,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -1529,7 +1530,7 @@ export const stocks = [
         value: 1,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -1540,7 +1541,7 @@ export const stocks = [
         value: 0.30923972753241047,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>30.92%</Text>,
@@ -1549,7 +1550,7 @@ export const stocks = [
         value: 0.3006225066853711,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>30.06%</Text>,
@@ -1558,7 +1559,7 @@ export const stocks = [
         value: 0.20921803386025628,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>20.92%</Text>,
@@ -1567,7 +1568,7 @@ export const stocks = [
         value: 0.35884775509746053,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>35.88%</Text>,
@@ -1576,7 +1577,7 @@ export const stocks = [
         value: 0.2899210110584518,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>28.99%</Text>,
@@ -1587,7 +1588,7 @@ export const stocks = [
         value: 39520000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$39.52B</Text>,
@@ -1596,7 +1597,7 @@ export const stocks = [
         value: 61777000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$61.78B</Text>,
@@ -1605,7 +1606,7 @@ export const stocks = [
         value: 37993000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$37.99B</Text>,
@@ -1614,7 +1615,7 @@ export const stocks = [
         value: -7193000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>-$7.19B</Text>,
@@ -1623,7 +1624,7 @@ export const stocks = [
         value: -6327000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>-$6.33B</Text>,
@@ -1634,7 +1635,7 @@ export const stocks = [
         value: 91020000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$91.02B</Text>,
@@ -1643,7 +1644,7 @@ export const stocks = [
         value: 91244000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$91.24B</Text>,
@@ -1652,7 +1653,7 @@ export const stocks = [
         value: 85528000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$85.53B</Text>,
@@ -1661,7 +1662,7 @@ export const stocks = [
         value: 89113000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$89.11B</Text>,
@@ -1670,7 +1671,7 @@ export const stocks = [
         value: 94950000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$94.95B</Text>,
@@ -1681,7 +1682,7 @@ export const stocks = [
         value: 0.1060849901064732,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>10.61%</Text>,
@@ -1690,7 +1691,7 @@ export const stocks = [
         value: 0.10358370152184586,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>10.36%</Text>,
@@ -1699,7 +1700,7 @@ export const stocks = [
         value: 0.06556403980595331,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>6.56%</Text>,
@@ -1708,7 +1709,7 @@ export const stocks = [
         value: 0.11840809283656588,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>11.84%</Text>,
@@ -1717,7 +1718,7 @@ export const stocks = [
         value: 0.10076245346764423,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>10.08%</Text>,
@@ -1728,7 +1729,7 @@ export const stocks = [
         value: 0.023099252115607215,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>2.31%</Text>,
@@ -1737,7 +1738,7 @@ export const stocks = [
         value: 0.013591576326572955,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.36%</Text>,
@@ -1746,7 +1747,7 @@ export const stocks = [
         value: 0.006783187265963077,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>0.68%</Text>,
@@ -1755,7 +1756,7 @@ export const stocks = [
         value: 0.010799076344600382,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.08%</Text>,
@@ -1764,7 +1765,7 @@ export const stocks = [
         value: 0.01689015118193357,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.69%</Text>,
@@ -1793,7 +1794,7 @@ export const stocks = [
         value: 188010000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$188.01B</Text>,
@@ -1802,7 +1803,7 @@ export const stocks = [
         value: 193919000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$193.92B</Text>,
@@ -1811,7 +1812,7 @@ export const stocks = [
         value: 309615000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$309.62B</Text>,
@@ -1820,7 +1821,7 @@ export const stocks = [
         value: 262033000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$262.03B</Text>,
@@ -1829,7 +1830,7 @@ export const stocks = [
         value: 342025000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$342.03B</Text>,
@@ -1840,7 +1841,7 @@ export const stocks = [
         value: 264251000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$264.25B</Text>,
@@ -1849,7 +1850,7 @@ export const stocks = [
         value: 293809000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$293.81B</Text>,
@@ -1858,7 +1859,7 @@ export const stocks = [
         value: 301200000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$301.20B</Text>,
@@ -1867,7 +1868,7 @@ export const stocks = [
         value: 282347000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$282.35B</Text>,
@@ -1876,7 +1877,7 @@ export const stocks = [
         value: 318702000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$318.70B</Text>,
@@ -1887,7 +1888,7 @@ export const stocks = [
         value: 18053000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$18.05B</Text>,
@@ -1896,7 +1897,7 @@ export const stocks = [
         value: 19405000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$19.41B</Text>,
@@ -1905,7 +1906,7 @@ export const stocks = [
         value: 11067000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$11.07B</Text>,
@@ -1914,7 +1915,7 @@ export const stocks = [
         value: 21945000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$21.95B</Text>,
@@ -1923,7 +1924,7 @@ export const stocks = [
         value: 15076000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$15.08B</Text>,
@@ -1934,7 +1935,7 @@ export const stocks = [
         value: 0.5456254975704834,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>54.56%</Text>,
@@ -1943,7 +1944,7 @@ export const stocks = [
         value: 0.5502651912877258,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>55.03%</Text>,
@@ -1952,7 +1953,7 @@ export const stocks = [
         value: 0.5346542649849915,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>53.47%</Text>,
@@ -1961,7 +1962,7 @@ export const stocks = [
         value: 0.4592207214099907,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>45.92%</Text>,
@@ -1970,7 +1971,7 @@ export const stocks = [
         value: 0.4535688201314654,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>45.36%</Text>,
@@ -1981,7 +1982,7 @@ export const stocks = [
         value: 0.24768715513218217,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>24.77%</Text>,
@@ -1990,7 +1991,7 @@ export const stocks = [
         value: 0.2611663032065261,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>26.12%</Text>,
@@ -1999,7 +2000,7 @@ export const stocks = [
         value: 0.15304680243905722,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>15.30%</Text>,
@@ -2008,7 +2009,7 @@ export const stocks = [
         value: 0.305368147231071,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>30.54%</Text>,
@@ -2017,7 +2018,7 @@ export const stocks = [
         value: 0.19713166456410597,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>19.71%</Text>,
@@ -2028,7 +2029,7 @@ export const stocks = [
         value: 33178000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$33.18B</Text>,
@@ -2037,7 +2038,7 @@ export const stocks = [
         value: -18173000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>-$18.17B</Text>,
@@ -2046,7 +2047,7 @@ export const stocks = [
         value: -24067000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>-$24.07B</Text>,
@@ -2055,7 +2056,7 @@ export const stocks = [
         value: 57130000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$57.13B</Text>,
@@ -2064,7 +2065,7 @@ export const stocks = [
         value: 19437000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$19.44B</Text>,
@@ -2075,7 +2076,7 @@ export const stocks = [
         value: 72854000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$72.85B</Text>,
@@ -2084,7 +2085,7 @@ export const stocks = [
         value: 74286000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$74.29B</Text>,
@@ -2093,7 +2094,7 @@ export const stocks = [
         value: 74291000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$74.29B</Text>,
@@ -2102,7 +2103,7 @@ export const stocks = [
         value: 71887000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$71.89B</Text>,
@@ -2111,7 +2112,7 @@ export const stocks = [
         value: 75305000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$75.31B</Text>,
@@ -2122,7 +2123,7 @@ export const stocks = [
         value: 0.09196310263989399,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>9.20%</Text>,
@@ -2131,7 +2132,7 @@ export const stocks = [
         value: 0.10039742913031328,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>10.04%</Text>,
@@ -2140,7 +2141,7 @@ export const stocks = [
         value: 0.056916877330863765,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>5.69%</Text>,
@@ -2149,7 +2150,7 @@ export const stocks = [
         value: 0.10868833303626245,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>10.87%</Text>,
@@ -2158,7 +2159,7 @@ export const stocks = [
         value: 0.0737863402074666,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>7.38%</Text>,
@@ -2169,7 +2170,7 @@ export const stocks = [
         value: 0.025536552713705064,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>2.55%</Text>,
@@ -2178,7 +2179,7 @@ export const stocks = [
         value: 0.012829554435297184,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.28%</Text>,
@@ -2187,7 +2188,7 @@ export const stocks = [
         value: 0.006403638360004458,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>0.64%</Text>,
@@ -2196,7 +2197,7 @@ export const stocks = [
         value: 0.012444539307269268,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.24%</Text>,
@@ -2205,7 +2206,7 @@ export const stocks = [
         value: 0.0192261044131315,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.92%</Text>,
@@ -2234,7 +2235,7 @@ export const stocks = [
         value: 8384000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$8.38B</Text>,
@@ -2243,7 +2244,7 @@ export const stocks = [
         value: 12277000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$12.28B</Text>,
@@ -2252,7 +2253,7 @@ export const stocks = [
         value: 11258000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$11.26B</Text>,
@@ -2261,7 +2262,7 @@ export const stocks = [
         value: 10203000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$10.20B</Text>,
@@ -2270,7 +2271,7 @@ export const stocks = [
         value: 13700000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$13.70B</Text>,
@@ -2281,7 +2282,7 @@ export const stocks = [
         value: 6823000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$6.82B</Text>,
@@ -2290,7 +2291,7 @@ export const stocks = [
         value: 10167000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$10.17B</Text>,
@@ -2299,7 +2300,7 @@ export const stocks = [
         value: 10133000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$10.13B</Text>,
@@ -2308,7 +2309,7 @@ export const stocks = [
         value: 9039000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$9.04B</Text>,
@@ -2317,7 +2318,7 @@ export const stocks = [
         value: 8884000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$8.88B</Text>,
@@ -2328,7 +2329,7 @@ export const stocks = [
         value: 3704000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$3.70B</Text>,
@@ -2337,7 +2338,7 @@ export const stocks = [
         value: 4059000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$4.06B</Text>,
@@ -2346,7 +2347,7 @@ export const stocks = [
         value: 5079000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$5.08B</Text>,
@@ -2355,7 +2356,7 @@ export const stocks = [
         value: 5915000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$5.92B</Text>,
@@ -2364,7 +2365,7 @@ export const stocks = [
         value: 6292000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$6.29B</Text>,
@@ -2375,7 +2376,7 @@ export const stocks = [
         value: 0.12977479158890134,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>12.98%</Text>,
@@ -2384,7 +2385,7 @@ export const stocks = [
         value: 0.13085793440912444,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>13.09%</Text>,
@@ -2393,7 +2394,7 @@ export const stocks = [
         value: 0.12884769482822858,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>12.88%</Text>,
@@ -2402,7 +2403,7 @@ export const stocks = [
         value: 0.12148717361227385,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>12.15%</Text>,
@@ -2411,7 +2412,7 @@ export const stocks = [
         value: 0.12259688802674482,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>12.26%</Text>,
@@ -2422,7 +2423,7 @@ export const stocks = [
         value: 0.023961546269555937,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>2.40%</Text>,
@@ -2431,7 +2432,7 @@ export const stocks = [
         value: 0.023998416896036844,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>2.40%</Text>,
@@ -2440,7 +2441,7 @@ export const stocks = [
         value: 0.025555175599324246,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>2.56%</Text>,
@@ -2449,7 +2450,7 @@ export const stocks = [
         value: 0.025749711395260715,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>2.57%</Text>,
@@ -2458,7 +2459,7 @@ export const stocks = [
         value: 0.025968880267448098,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>2.60%</Text>,
@@ -2469,7 +2470,7 @@ export const stocks = [
         value: 3358000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$3.36B</Text>,
@@ -2478,7 +2479,7 @@ export const stocks = [
         value: 6051000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$6.05B</Text>,
@@ -2487,7 +2488,7 @@ export const stocks = [
         value: 5370000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$5.37B</Text>,
@@ -2496,7 +2497,7 @@ export const stocks = [
         value: 3501000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$3.50B</Text>,
@@ -2505,7 +2506,7 @@ export const stocks = [
         value: 6745000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$6.75B</Text>,
@@ -2516,7 +2517,7 @@ export const stocks = [
         value: 141576000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$141.58B</Text>,
@@ -2525,7 +2526,7 @@ export const stocks = [
         value: 152703000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$152.70B</Text>,
@@ -2534,7 +2535,7 @@ export const stocks = [
         value: 166761000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$166.76B</Text>,
@@ -2543,7 +2544,7 @@ export const stocks = [
         value: 195929000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$195.93B</Text>,
@@ -2552,7 +2553,7 @@ export const stocks = [
         value: 226954000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$226.95B</Text>,
@@ -2563,7 +2564,7 @@ export const stocks = [
         value: 0.24004461064094995,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>24.00%</Text>,
@@ -2572,7 +2573,7 @@ export const stocks = [
         value: 0.21887989499015534,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>21.89%</Text>,
@@ -2581,7 +2582,7 @@ export const stocks = [
         value: 0.28507173764518334,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>28.51%</Text>,
@@ -2590,7 +2591,7 @@ export const stocks = [
         value: 0.2831121015405484,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>28.31%</Text>,
@@ -2599,7 +2600,7 @@ export const stocks = [
         value: 0.2510974539069359,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>25.11%</Text>,
@@ -2610,7 +2611,7 @@ export const stocks = [
         value: 0.2137346027162388,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>21.37%</Text>,
@@ -2619,7 +2620,7 @@ export const stocks = [
         value: 0.17696665798384997,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>17.70%</Text>,
@@ -2628,7 +2629,7 @@ export const stocks = [
         value: 0.22489690548831595,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>22.49%</Text>,
@@ -2637,7 +2638,7 @@ export const stocks = [
         value: 0.24225938821188758,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>24.23%</Text>,
@@ -2646,7 +2647,7 @@ export const stocks = [
         value: 0.2291378385247522,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>22.91%</Text>,
@@ -2675,7 +2676,7 @@ export const stocks = [
         value: 186319000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$186.32M</Text>,
@@ -2684,7 +2685,7 @@ export const stocks = [
         value: 477718000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$477.72M</Text>,
@@ -2693,7 +2694,7 @@ export const stocks = [
         value: 1048260000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$1.05B</Text>,
@@ -2702,7 +2703,7 @@ export const stocks = [
         value: 1384236000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$1.38B</Text>,
@@ -2711,7 +2712,7 @@ export const stocks = [
         value: 957395000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$957.40M</Text>,
@@ -2722,7 +2723,7 @@ export const stocks = [
         value: 401229000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$401.23M</Text>,
@@ -2731,7 +2732,7 @@ export const stocks = [
         value: 518192000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$518.19M</Text>,
@@ -2740,7 +2741,7 @@ export const stocks = [
         value: 518069000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$518.07M</Text>,
@@ -2749,7 +2750,7 @@ export const stocks = [
         value: 119473000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$119.47M</Text>,
@@ -2758,7 +2759,7 @@ export const stocks = [
         value: 120453000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$120.45M</Text>,
@@ -2769,7 +2770,7 @@ export const stocks = [
         value: 591693000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$591.69M</Text>,
@@ -2778,7 +2779,7 @@ export const stocks = [
         value: 699907000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$699.91M</Text>,
@@ -2787,7 +2788,7 @@ export const stocks = [
         value: 936495000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$936.50M</Text>,
@@ -2796,7 +2797,7 @@ export const stocks = [
         value: 1090130000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$1.09B</Text>,
@@ -2805,7 +2806,7 @@ export const stocks = [
         value: 1237741000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$1.24B</Text>,
@@ -2816,7 +2817,7 @@ export const stocks = [
         value: 0.4399416833949001,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>43.99%</Text>,
@@ -2825,7 +2826,7 @@ export const stocks = [
         value: 0.4569322487523707,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>45.69%</Text>,
@@ -2834,7 +2835,7 @@ export const stocks = [
         value: 0.49882470303742493,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>49.88%</Text>,
@@ -2843,7 +2844,7 @@ export const stocks = [
         value: 0.4587995558882934,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>45.88%</Text>,
@@ -2852,7 +2853,7 @@ export const stocks = [
         value: 0.44889079208314836,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>44.89%</Text>,
@@ -2863,7 +2864,7 @@ export const stocks = [
         value: 0.2897676101896367,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>28.98%</Text>,
@@ -2872,7 +2873,7 @@ export const stocks = [
         value: 0.3173342377049515,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>31.73%</Text>,
@@ -2881,7 +2882,7 @@ export const stocks = [
         value: 0.3478147350187242,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>34.78%</Text>,
@@ -2890,7 +2891,7 @@ export const stocks = [
         value: 0.31138377586926413,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>31.14%</Text>,
@@ -2899,7 +2900,7 @@ export const stocks = [
         value: 0.31986955481276996,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>31.99%</Text>,
@@ -2910,7 +2911,7 @@ export const stocks = [
         value: 272018000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$272.02M</Text>,
@@ -2919,7 +2920,7 @@ export const stocks = [
         value: 314211000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$314.21M</Text>,
@@ -2928,7 +2929,7 @@ export const stocks = [
         value: 527895000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$527.90M</Text>,
@@ -2937,7 +2938,7 @@ export const stocks = [
         value: 839235000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$839.24M</Text>,
@@ -2946,7 +2947,7 @@ export const stocks = [
         value: 847574000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$847.57M</Text>,
@@ -2957,7 +2958,7 @@ export const stocks = [
         value: 1805695000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$1.81B</Text>,
@@ -2966,7 +2967,7 @@ export const stocks = [
         value: 2041957000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.04B</Text>,
@@ -2975,7 +2976,7 @@ export const stocks = [
         value: 2205583000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.21B</Text>,
@@ -2984,7 +2985,7 @@ export const stocks = [
         value: 2692511000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.69B</Text>,
@@ -2993,7 +2994,7 @@ export const stocks = [
         value: 3500921000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$3.50B</Text>,
@@ -3004,7 +3005,7 @@ export const stocks = [
         value: 0.3327144183389274,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>33.27%</Text>,
@@ -3013,7 +3014,7 @@ export const stocks = [
         value: 0.2811417962366982,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>28.11%</Text>,
@@ -3022,7 +3023,7 @@ export const stocks = [
         value: 0.26535609618154365,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>26.54%</Text>,
@@ -3031,7 +3032,7 @@ export const stocks = [
         value: 0.23567326091172192,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>23.57%</Text>,
@@ -3040,7 +3041,7 @@ export const stocks = [
         value: 0.20672290661785336,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>20.67%</Text>,
@@ -3051,7 +3052,7 @@ export const stocks = [
         value: 0.316238916355088,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>31.62%</Text>,
@@ -3060,7 +3061,7 @@ export const stocks = [
         value: 0.2633242525450783,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>26.33%</Text>,
@@ -3069,7 +3070,7 @@ export const stocks = [
         value: 0.27442532343969445,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>27.44%</Text>,
@@ -3078,7 +3079,7 @@ export const stocks = [
         value: 0.2824576954483127,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>28.25%</Text>,
@@ -3087,7 +3088,7 @@ export const stocks = [
         value: 0.23803728036816005,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>23.80%</Text>,
@@ -3116,7 +3117,7 @@ export const stocks = [
         value: 9342000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$9.34B</Text>,
@@ -3125,7 +3126,7 @@ export const stocks = [
         value: 5686000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$5.69B</Text>,
@@ -3134,7 +3135,7 @@ export const stocks = [
         value: 5596000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$5.60B</Text>,
@@ -3143,7 +3144,7 @@ export const stocks = [
         value: 5640000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$5.64B</Text>,
@@ -3152,7 +3153,7 @@ export const stocks = [
         value: 17678000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$17.68B</Text>,
@@ -3163,7 +3164,7 @@ export const stocks = [
         value: 34459000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$34.46B</Text>,
@@ -3172,7 +3173,7 @@ export const stocks = [
         value: 26973000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$26.97B</Text>,
@@ -3181,7 +3182,7 @@ export const stocks = [
         value: 44315000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$44.32B</Text>,
@@ -3190,7 +3191,7 @@ export const stocks = [
         value: 31369000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$31.37B</Text>,
@@ -3199,7 +3200,7 @@ export const stocks = [
         value: 23339000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$23.34B</Text>,
@@ -3210,7 +3211,7 @@ export const stocks = [
         value: 14900000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$14.90B</Text>,
@@ -3219,7 +3220,7 @@ export const stocks = [
         value: 2800000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.80B</Text>,
@@ -3228,7 +3229,7 @@ export const stocks = [
         value: -5600000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>-$5.60B</Text>,
@@ -3237,7 +3238,7 @@ export const stocks = [
         value: 15700000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$15.70B</Text>,
@@ -3246,7 +3247,7 @@ export const stocks = [
         value: 35600000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$35.60B</Text>,
@@ -3257,7 +3258,7 @@ export const stocks = [
         value: 0.28259556204453057,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>28.26%</Text>,
@@ -3266,7 +3267,7 @@ export const stocks = [
         value: 0.2183105137096486,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>21.83%</Text>,
@@ -3275,7 +3276,7 @@ export const stocks = [
         value: 0.2590742132506272,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>25.91%</Text>,
@@ -3284,7 +3285,7 @@ export const stocks = [
         value: 0.31045718031438374,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>31.05%</Text>,
@@ -3293,7 +3294,7 @@ export const stocks = [
         value: 0.3138594161642987,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>31.39%</Text>,
@@ -3304,7 +3305,7 @@ export const stocks = [
         value: 0.0932902040251224,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>9.33%</Text>,
@@ -3313,7 +3314,7 @@ export const stocks = [
         value: 0.02090587352089515,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>2.09%</Text>,
@@ -3322,7 +3323,7 @@ export const stocks = [
         value: -0.058864625123053634,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>-5.89%</Text>,
@@ -3331,7 +3332,7 @@ export const stocks = [
         value: 0.10041386578923692,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>10.04%</Text>,
@@ -3340,7 +3341,7 @@ export const stocks = [
         value: 0.15045584323574457,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>15.05%</Text>,
@@ -3351,7 +3352,7 @@ export const stocks = [
         value: 16800000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$16.80B</Text>,
@@ -3360,7 +3361,7 @@ export const stocks = [
         value: 13200000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$13.20B</Text>,
@@ -3369,7 +3370,7 @@ export const stocks = [
         value: 1700000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$1.70B</Text>,
@@ -3378,7 +3379,7 @@ export const stocks = [
         value: 21100000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$21.10B</Text>,
@@ -3387,7 +3388,7 @@ export const stocks = [
         value: 37600000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$37.60B</Text>,
@@ -3398,7 +3399,7 @@ export const stocks = [
         value: 158902000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$158.90B</Text>,
@@ -3407,7 +3408,7 @@ export const stocks = [
         value: 139865000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$139.87B</Text>,
@@ -3416,7 +3417,7 @@ export const stocks = [
         value: 94471000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$94.47B</Text>,
@@ -3425,7 +3426,7 @@ export const stocks = [
         value: 155606000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$155.61B</Text>,
@@ -3434,7 +3435,7 @@ export const stocks = [
         value: 235717000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$235.72B</Text>,
@@ -3445,7 +3446,7 @@ export const stocks = [
         value: 0.08108566396271723,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>8.11%</Text>,
@@ -3454,7 +3455,7 @@ export const stocks = [
         value: 0.016540613315080582,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.65%</Text>,
@@ -3463,7 +3464,7 @@ export const stocks = [
         value: -0.03428293128001529,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>-3.43%</Text>,
@@ -3472,7 +3473,7 @@ export const stocks = [
         value: 0.09335157547586899,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>9.34%</Text>,
@@ -3481,7 +3482,7 @@ export const stocks = [
         value: 0.18485218080226837,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>18.49%</Text>,
@@ -3492,7 +3493,7 @@ export const stocks = [
         value: 0.06372523070950893,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>6.37%</Text>,
@@ -3501,7 +3502,7 @@ export const stocks = [
         value: 0.030033475898301548,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>3.00%</Text>,
@@ -3510,7 +3511,7 @@ export const stocks = [
         value: -0.03104679536963425,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>-3.10%</Text>,
@@ -3519,7 +3520,7 @@ export const stocks = [
         value: 0.10506054224795999,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>10.51%</Text>,
@@ -3528,7 +3529,7 @@ export const stocks = [
         value: 0.22456275363421194,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>22.46%</Text>,
@@ -3557,7 +3558,7 @@ export const stocks = [
         value: 16701000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$16.70B</Text>,
@@ -3566,7 +3567,7 @@ export const stocks = [
         value: 18498000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$18.50B</Text>,
@@ -3575,7 +3576,7 @@ export const stocks = [
         value: 26465000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$26.47B</Text>,
@@ -3584,7 +3585,7 @@ export const stocks = [
         value: 20945000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$20.95B</Text>,
@@ -3593,7 +3594,7 @@ export const stocks = [
         value: 21879000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$21.88B</Text>,
@@ -3604,7 +3605,7 @@ export const stocks = [
         value: 4012000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$4.01B</Text>,
@@ -3613,7 +3614,7 @@ export const stocks = [
         value: 14768000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$14.77B</Text>,
@@ -3622,7 +3623,7 @@ export const stocks = [
         value: 25078000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$25.08B</Text>,
@@ -3631,7 +3632,7 @@ export const stocks = [
         value: 26206000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$26.21B</Text>,
@@ -3640,7 +3641,7 @@ export const stocks = [
         value: 29679000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$29.68B</Text>,
@@ -3651,7 +3652,7 @@ export const stocks = [
         value: 30736000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$30.74B</Text>,
@@ -3660,7 +3661,7 @@ export const stocks = [
         value: 34343000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$34.34B</Text>,
@@ -3669,7 +3670,7 @@ export const stocks = [
         value: 40269000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$40.27B</Text>,
@@ -3678,7 +3679,7 @@ export const stocks = [
         value: 76033000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$76.03B</Text>,
@@ -3687,7 +3688,7 @@ export const stocks = [
         value: 59972000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$59.97B</Text>,
@@ -3698,7 +3699,7 @@ export const stocks = [
         value: 0.5647607422945643,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>56.48%</Text>,
@@ -3707,7 +3708,7 @@ export const stocks = [
         value: 0.5558054331910266,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>55.58%</Text>,
@@ -3716,7 +3717,7 @@ export const stocks = [
         value: 0.5357837470620785,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>53.58%</Text>,
@@ -3725,7 +3726,7 @@ export const stocks = [
         value: 0.5693980290098084,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>56.94%</Text>,
@@ -3734,7 +3735,7 @@ export const stocks = [
         value: 0.5537944250378312,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>55.38%</Text>,
@@ -3745,7 +3746,7 @@ export const stocks = [
         value: 0.22464716157843576,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>22.46%</Text>,
@@ -3754,7 +3755,7 @@ export const stocks = [
         value: 0.2121811228430034,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>21.22%</Text>,
@@ -3763,7 +3764,7 @@ export const stocks = [
         value: 0.22061941520980458,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>22.06%</Text>,
@@ -3772,7 +3773,7 @@ export const stocks = [
         value: 0.2951167728237792,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>29.51%</Text>,
@@ -3781,7 +3782,7 @@ export const stocks = [
         value: 0.2120380715326196,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>21.20%</Text>,
@@ -3792,7 +3793,7 @@ export const stocks = [
         value: 22832000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$22.83B</Text>,
@@ -3801,7 +3802,7 @@ export const stocks = [
         value: 30972000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$30.97B</Text>,
@@ -3810,7 +3811,7 @@ export const stocks = [
         value: 42843000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$42.84B</Text>,
@@ -3819,7 +3820,7 @@ export const stocks = [
         value: 67012000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$67.01B</Text>,
@@ -3828,7 +3829,7 @@ export const stocks = [
         value: 60010000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$60.01B</Text>,
@@ -3839,7 +3840,7 @@ export const stocks = [
         value: 136819000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$136.82B</Text>,
@@ -3848,7 +3849,7 @@ export const stocks = [
         value: 161857000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$161.86B</Text>,
@@ -3857,7 +3858,7 @@ export const stocks = [
         value: 182527000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$182.53B</Text>,
@@ -3866,7 +3867,7 @@ export const stocks = [
         value: 257637000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$257.64B</Text>,
@@ -3875,7 +3876,7 @@ export const stocks = [
         value: 282836000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$282.84B</Text>,
@@ -3886,7 +3887,7 @@ export const stocks = [
         value: 0.17303578264688,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>17.30%</Text>,
@@ -3895,7 +3896,7 @@ export const stocks = [
         value: 0.17048579740074066,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>17.05%</Text>,
@@ -3904,7 +3905,7 @@ export const stocks = [
         value: 0.18094848659141563,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>18.09%</Text>,
@@ -3913,7 +3914,7 @@ export const stocks = [
         value: 0.30215590041131,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>30.22%</Text>,
@@ -3922,7 +3923,7 @@ export const stocks = [
         value: 0.2341339246673746,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>23.41%</Text>,
@@ -3933,7 +3934,7 @@ export const stocks = [
         value: 0.1328189653432372,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>13.28%</Text>,
@@ -3942,7 +3943,7 @@ export const stocks = [
         value: 0.14838656540435566,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>14.84%</Text>,
@@ -3951,7 +3952,7 @@ export const stocks = [
         value: 0.15687528065088172,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>15.69%</Text>,
@@ -3960,7 +3961,7 @@ export const stocks = [
         value: 0.2668144562630926,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>26.68%</Text>,
@@ -3969,7 +3970,7 @@ export const stocks = [
         value: 0.25287534970469383,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>25.29%</Text>,
@@ -3998,7 +3999,7 @@ export const stocks = [
         value: 2116000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.12B</Text>,
@@ -4007,7 +4008,7 @@ export const stocks = [
         value: 6442000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$6.44B</Text>,
@@ -4016,7 +4017,7 @@ export const stocks = [
         value: 2562000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.56B</Text>,
@@ -4025,7 +4026,7 @@ export const stocks = [
         value: 2796000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.80B</Text>,
@@ -4034,7 +4035,7 @@ export const stocks = [
         value: 2848000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.85B</Text>,
@@ -4045,7 +4046,7 @@ export const stocks = [
         value: 436000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$436.00M</Text>,
@@ -4054,7 +4055,7 @@ export const stocks = [
         value: 3590000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$3.59B</Text>,
@@ -4063,7 +4064,7 @@ export const stocks = [
         value: 2414000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.41B</Text>,
@@ -4072,7 +4073,7 @@ export const stocks = [
         value: 7456000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$7.46B</Text>,
@@ -4081,7 +4082,7 @@ export const stocks = [
         value: 6600000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$6.60B</Text>,
@@ -4092,7 +4093,7 @@ export const stocks = [
         value: 1557000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$1.56B</Text>,
@@ -4101,7 +4102,7 @@ export const stocks = [
         value: 1826000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$1.83B</Text>,
@@ -4110,7 +4111,7 @@ export const stocks = [
         value: 2062000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.06B</Text>,
@@ -4119,7 +4120,7 @@ export const stocks = [
         value: 2066000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.07B</Text>,
@@ -4128,7 +4129,7 @@ export const stocks = [
         value: 2384000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.38B</Text>,
@@ -4139,7 +4140,7 @@ export const stocks = [
         value: 0.8279775943396226,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>82.80%</Text>,
@@ -4148,7 +4149,7 @@ export const stocks = [
         value: 0.8205495507227504,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>82.05%</Text>,
@@ -4157,7 +4158,7 @@ export const stocks = [
         value: 0.825288072251635,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>82.53%</Text>,
@@ -4166,7 +4167,7 @@ export const stocks = [
         value: 0.8109382366808109,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>81.09%</Text>,
@@ -4175,7 +4176,7 @@ export const stocks = [
         value: 0.78125,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>78.13%</Text>,
@@ -4186,7 +4187,7 @@ export const stocks = [
         value: 0.22951061320754718,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>22.95%</Text>,
@@ -4195,7 +4196,7 @@ export const stocks = [
         value: 0.23779137908581846,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>23.78%</Text>,
@@ -4204,7 +4205,7 @@ export const stocks = [
         value: 0.21405584968338004,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>21.41%</Text>,
@@ -4213,7 +4214,7 @@ export const stocks = [
         value: 0.16234480590916234,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>16.23%</Text>,
@@ -4222,7 +4223,7 @@ export const stocks = [
         value: 0.16592427616926503,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>16.59%</Text>,
@@ -4233,7 +4234,7 @@ export const stocks = [
         value: 2169000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.17B</Text>,
@@ -4242,7 +4243,7 @@ export const stocks = [
         value: 2277000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.28B</Text>,
@@ -4251,7 +4252,7 @@ export const stocks = [
         value: 3125000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$3.13B</Text>,
@@ -4260,7 +4261,7 @@ export const stocks = [
         value: 3660000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$3.66B</Text>,
@@ -4269,7 +4270,7 @@ export const stocks = [
         value: 4786000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$4.79B</Text>,
@@ -4280,7 +4281,7 @@ export const stocks = [
         value: 6784000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$6.78B</Text>,
@@ -4289,7 +4290,7 @@ export const stocks = [
         value: 7679000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$7.68B</Text>,
@@ -4298,7 +4299,7 @@ export const stocks = [
         value: 9633000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$9.63B</Text>,
@@ -4307,7 +4308,7 @@ export const stocks = [
         value: 12726000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$12.73B</Text>,
@@ -4316,7 +4317,7 @@ export const stocks = [
         value: 14368000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$14.37B</Text>,
@@ -4327,7 +4328,7 @@ export const stocks = [
         value: 0.41531074953320885,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>41.53%</Text>,
@@ -4336,7 +4337,7 @@ export const stocks = [
         value: 0.3576184880532707,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>35.76%</Text>,
@@ -4345,7 +4346,7 @@ export const stocks = [
         value: 0.20893707569155942,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>20.89%</Text>,
@@ -4354,7 +4355,7 @@ export const stocks = [
         value: 0.12566145611580803,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>12.57%</Text>,
@@ -4363,7 +4364,7 @@ export const stocks = [
         value: 0.13805084255023453,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>13.81%</Text>,
@@ -4374,7 +4375,7 @@ export const stocks = [
         value: 0.4294649061848506,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>42.95%</Text>,
@@ -4383,7 +4384,7 @@ export const stocks = [
         value: 0.2939746014590651,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>29.40%</Text>,
@@ -4392,7 +4393,7 @@ export const stocks = [
         value: 0.19438612860586268,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>19.44%</Text>,
@@ -4401,7 +4402,7 @@ export const stocks = [
         value: 0.10666279455692002,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>10.67%</Text>,
@@ -4410,7 +4411,7 @@ export const stocks = [
         value: 0.13092955398082534,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>13.09%</Text>,
@@ -4439,7 +4440,7 @@ export const stocks = [
         value: 278793000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$278.79B</Text>,
@@ -4448,7 +4449,7 @@ export const stocks = [
         value: 263631000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$263.63B</Text>,
@@ -4457,7 +4458,7 @@ export const stocks = [
         value: 527609000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$527.61B</Text>,
@@ -4466,7 +4467,7 @@ export const stocks = [
         value: 740834000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$740.83B</Text>,
@@ -4475,7 +4476,7 @@ export const stocks = [
         value: 567234000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$567.23B</Text>,
@@ -4486,7 +4487,7 @@ export const stocks = [
         value: 454311000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$454.31B</Text>,
@@ -4495,7 +4496,7 @@ export const stocks = [
         value: 407987000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$407.99B</Text>,
@@ -4504,7 +4505,7 @@ export const stocks = [
         value: 426451000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$426.45B</Text>,
@@ -4513,7 +4514,7 @@ export const stocks = [
         value: 469176000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$469.18B</Text>,
@@ -4522,7 +4523,7 @@ export const stocks = [
         value: 466727000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$466.73B</Text>,
@@ -4533,7 +4534,7 @@ export const stocks = [
         value: 32474000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$32.47B</Text>,
@@ -4542,7 +4543,7 @@ export const stocks = [
         value: 36431000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$36.43B</Text>,
@@ -4551,7 +4552,7 @@ export const stocks = [
         value: 29131000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$29.13B</Text>,
@@ -4560,7 +4561,7 @@ export const stocks = [
         value: 48334000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$48.33B</Text>,
@@ -4569,7 +4570,7 @@ export const stocks = [
         value: 37676000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$37.68B</Text>,
@@ -4580,7 +4581,7 @@ export const stocks = [
         value: 1,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -4589,7 +4590,7 @@ export const stocks = [
         value: 1,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -4598,7 +4599,7 @@ export const stocks = [
         value: 1,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -4607,7 +4608,7 @@ export const stocks = [
         value: 1,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -4616,7 +4617,7 @@ export const stocks = [
         value: 1,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -4627,7 +4628,7 @@ export const stocks = [
         value: 0.2978473617111044,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>29.78%</Text>,
@@ -4636,7 +4637,7 @@ export const stocks = [
         value: 0.31507346899945515,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>31.51%</Text>,
@@ -4645,7 +4646,7 @@ export const stocks = [
         value: 0.24368637226771955,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>24.37%</Text>,
@@ -4654,7 +4655,7 @@ export const stocks = [
         value: 0.3973234469662718,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>39.73%</Text>,
@@ -4663,7 +4664,7 @@ export const stocks = [
         value: 0.29275418625432226,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>29.28%</Text>,
@@ -4674,7 +4675,7 @@ export const stocks = [
         value: 14187000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$14.19B</Text>,
@@ -4683,7 +4684,7 @@ export const stocks = [
         value: 6046000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$6.05B</Text>,
@@ -4692,7 +4693,7 @@ export const stocks = [
         value: -79910000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>-$79.91B</Text>,
@@ -4701,7 +4702,7 @@ export const stocks = [
         value: 78084000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$78.08B</Text>,
@@ -4710,7 +4711,7 @@ export const stocks = [
         value: 107119000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$107.12B</Text>,
@@ -4721,7 +4722,7 @@ export const stocks = [
         value: 109029000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$109.03B</Text>,
@@ -4730,7 +4731,7 @@ export const stocks = [
         value: 115627000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$115.63B</Text>,
@@ -4739,7 +4740,7 @@ export const stocks = [
         value: 119543000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$119.54B</Text>,
@@ -4748,7 +4749,7 @@ export const stocks = [
         value: 121649000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$121.65B</Text>,
@@ -4757,7 +4758,7 @@ export const stocks = [
         value: 128695000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$128.70B</Text>,
@@ -4768,7 +4769,7 @@ export const stocks = [
         value: 0.12659688517240708,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>12.66%</Text>,
@@ -4777,7 +4778,7 @@ export const stocks = [
         value: 0.13940611487391422,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>13.94%</Text>,
@@ -4786,7 +4787,7 @@ export const stocks = [
         value: 0.10427987428137775,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>10.43%</Text>,
@@ -4795,7 +4796,7 @@ export const stocks = [
         value: 0.16433037429409744,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>16.43%</Text>,
@@ -4804,7 +4805,7 @@ export const stocks = [
         value: 0.12888086148625535,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>12.89%</Text>,
@@ -4815,7 +4816,7 @@ export const stocks = [
         value: 0.012798231016107693,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.28%</Text>,
@@ -4824,7 +4825,7 @@ export const stocks = [
         value: 0.018285734458870335,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.83%</Text>,
@@ -4833,7 +4834,7 @@ export const stocks = [
         value: 0.011391246046024405,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.14%</Text>,
@@ -4842,7 +4843,7 @@ export const stocks = [
         value: 0.017379110403831912,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.74%</Text>,
@@ -4851,7 +4852,7 @@ export const stocks = [
         value: 0.011238945379827342,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.12%</Text>,
@@ -4880,7 +4881,7 @@ export const stocks = [
         value: 75089000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$75.09M</Text>,
@@ -4889,7 +4890,7 @@ export const stocks = [
         value: 100408000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$100.41M</Text>,
@@ -4898,7 +4899,7 @@ export const stocks = [
         value: 77093000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$77.09M</Text>,
@@ -4907,7 +4908,7 @@ export const stocks = [
         value: 121040000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$121.04M</Text>,
@@ -4916,7 +4917,7 @@ export const stocks = [
         value: 156274000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$156.27M</Text>,
@@ -4927,7 +4928,7 @@ export const stocks = [
         value: 0,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$0.00</Text>,
@@ -4936,7 +4937,7 @@ export const stocks = [
         value: 16744000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$16.74M</Text>,
@@ -4945,7 +4946,7 @@ export const stocks = [
         value: 42570000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$42.57M</Text>,
@@ -4954,7 +4955,7 @@ export const stocks = [
         value: 42696000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$42.70M</Text>,
@@ -4963,7 +4964,7 @@ export const stocks = [
         value: 195747000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$195.75M</Text>,
@@ -4974,7 +4975,7 @@ export const stocks = [
         value: 33787000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$33.79M</Text>,
@@ -4983,7 +4984,7 @@ export const stocks = [
         value: 63316000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$63.32M</Text>,
@@ -4992,7 +4993,7 @@ export const stocks = [
         value: 88419000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$88.42M</Text>,
@@ -5001,7 +5002,7 @@ export const stocks = [
         value: 152659000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$152.66M</Text>,
@@ -5010,7 +5011,7 @@ export const stocks = [
         value: 159114000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$159.11M</Text>,
@@ -5021,7 +5022,7 @@ export const stocks = [
         value: 1,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -5030,7 +5031,7 @@ export const stocks = [
         value: 1,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -5039,7 +5040,7 @@ export const stocks = [
         value: 1,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -5048,7 +5049,7 @@ export const stocks = [
         value: 1,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -5057,7 +5058,7 @@ export const stocks = [
         value: 1,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -5068,7 +5069,7 @@ export const stocks = [
         value: 0.15211558028760006,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>15.21%</Text>,
@@ -5077,7 +5078,7 @@ export const stocks = [
         value: 0.20043812997011598,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>20.04%</Text>,
@@ -5086,7 +5087,7 @@ export const stocks = [
         value: 0.19226286514484026,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>19.23%</Text>,
@@ -5095,7 +5096,7 @@ export const stocks = [
         value: 0.23861208323499208,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>23.86%</Text>,
@@ -5104,7 +5105,7 @@ export const stocks = [
         value: 0.19423095703125,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>19.42%</Text>,
@@ -5115,7 +5116,7 @@ export const stocks = [
         value: 102707000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$102.71M</Text>,
@@ -5124,7 +5125,7 @@ export const stocks = [
         value: 158735000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$158.74M</Text>,
@@ -5133,7 +5134,7 @@ export const stocks = [
         value: 247099000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$247.10M</Text>,
@@ -5142,7 +5143,7 @@ export const stocks = [
         value: 401122000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$401.12M</Text>,
@@ -5151,7 +5152,7 @@ export const stocks = [
         value: 550914000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$550.91M</Text>,
@@ -5162,7 +5163,7 @@ export const stocks = [
         value: 222114000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$222.11M</Text>,
@@ -5171,7 +5172,7 @@ export const stocks = [
         value: 315888000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$315.89M</Text>,
@@ -5180,7 +5181,7 @@ export const stocks = [
         value: 459886000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$459.89M</Text>,
@@ -5189,7 +5190,7 @@ export const stocks = [
         value: 639779000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$639.78M</Text>,
@@ -5198,7 +5199,7 @@ export const stocks = [
         value: 819200000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$819.20M</Text>,
@@ -5209,7 +5210,7 @@ export const stocks = [
         value: 0.12798784784041578,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>12.80%</Text>,
@@ -5218,7 +5219,7 @@ export const stocks = [
         value: 0.15599684635852962,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>15.60%</Text>,
@@ -5227,7 +5228,7 @@ export const stocks = [
         value: 0.15344180703112256,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>15.34%</Text>,
@@ -5236,7 +5237,7 @@ export const stocks = [
         value: 0.21829166279393997,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>21.83%</Text>,
@@ -5245,7 +5246,7 @@ export const stocks = [
         value: 0.2134471975950065,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>21.34%</Text>,
@@ -5256,7 +5257,7 @@ export const stocks = [
         value: 0.05316466336051105,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>5.32%</Text>,
@@ -5265,7 +5266,7 @@ export const stocks = [
         value: 0.07211020887062276,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>7.21%</Text>,
@@ -5274,7 +5275,7 @@ export const stocks = [
         value: 0.06750933523138992,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>6.75%</Text>,
@@ -5283,7 +5284,7 @@ export const stocks = [
         value: 0.09703091741755107,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>9.70%</Text>,
@@ -5292,7 +5293,7 @@ export const stocks = [
         value: 0.07446631320431175,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>7.45%</Text>,
@@ -5321,7 +5322,7 @@ export const stocks = [
         value: 6682000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$6.68B</Text>,
@@ -5330,7 +5331,7 @@ export const stocks = [
         value: 6988000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$6.99B</Text>,
@@ -5339,7 +5340,7 @@ export const stocks = [
         value: 10113000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$10.11B</Text>,
@@ -5348,7 +5349,7 @@ export const stocks = [
         value: 7421000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$7.42B</Text>,
@@ -5357,7 +5358,7 @@ export const stocks = [
         value: 7008000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$7.01B</Text>,
@@ -5368,7 +5369,7 @@ export const stocks = [
         value: 6334000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$6.33B</Text>,
@@ -5377,7 +5378,7 @@ export const stocks = [
         value: 8527000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$8.53B</Text>,
@@ -5386,7 +5387,7 @@ export const stocks = [
         value: 12672000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$12.67B</Text>,
@@ -5395,7 +5396,7 @@ export const stocks = [
         value: 13901000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$13.90B</Text>,
@@ -5404,7 +5405,7 @@ export const stocks = [
         value: 14023000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$14.02B</Text>,
@@ -5415,7 +5416,7 @@ export const stocks = [
         value: 5859000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$5.86B</Text>,
@@ -5424,7 +5425,7 @@ export const stocks = [
         value: 8118000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$8.12B</Text>,
@@ -5433,7 +5434,7 @@ export const stocks = [
         value: 6411000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$6.41B</Text>,
@@ -5442,7 +5443,7 @@ export const stocks = [
         value: 8687000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$8.69B</Text>,
@@ -5451,7 +5452,7 @@ export const stocks = [
         value: 9930000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$9.93B</Text>,
@@ -5462,7 +5463,7 @@ export const stocks = [
         value: 0.7850167224080268,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>78.50%</Text>,
@@ -5471,7 +5472,7 @@ export const stocks = [
         value: 0.7904993188414381,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>79.05%</Text>,
@@ -5480,7 +5481,7 @@ export const stocks = [
         value: 0.7524998366119862,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>75.25%</Text>,
@@ -5489,7 +5490,7 @@ export const stocks = [
         value: 0.7622855327261173,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>76.23%</Text>,
@@ -5498,7 +5499,7 @@ export const stocks = [
         value: 0.7633223906102442,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>76.33%</Text>,
@@ -5509,7 +5510,7 @@ export const stocks = [
         value: 0.3919063545150502,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>39.19%</Text>,
@@ -5518,7 +5519,7 @@ export const stocks = [
         value: 0.48083871349878576,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>48.08%</Text>,
@@ -5527,7 +5528,7 @@ export const stocks = [
         value: 0.4189922227305405,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>41.90%</Text>,
@@ -5536,7 +5537,7 @@ export const stocks = [
         value: 0.4600190637576785,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>46.00%</Text>,
@@ -5545,7 +5546,7 @@ export const stocks = [
         value: 0.4465530422269191,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>44.66%</Text>,
@@ -5556,7 +5557,7 @@ export const stocks = [
         value: 5719000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$5.72B</Text>,
@@ -5565,7 +5566,7 @@ export const stocks = [
         value: 7455000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$7.46B</Text>,
@@ -5574,7 +5575,7 @@ export const stocks = [
         value: 6516000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$6.52B</Text>,
@@ -5583,7 +5584,7 @@ export const stocks = [
         value: 8649000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$8.65B</Text>,
@@ -5592,7 +5593,7 @@ export const stocks = [
         value: 10098000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$10.10B</Text>,
@@ -5603,7 +5604,7 @@ export const stocks = [
         value: 14950000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$14.95B</Text>,
@@ -5612,7 +5613,7 @@ export const stocks = [
         value: 16883000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$16.88B</Text>,
@@ -5621,7 +5622,7 @@ export const stocks = [
         value: 15301000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$15.30B</Text>,
@@ -5630,7 +5631,7 @@ export const stocks = [
         value: 18884000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$18.88B</Text>,
@@ -5639,7 +5640,7 @@ export const stocks = [
         value: 22237000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$22.24B</Text>,
@@ -5650,7 +5651,7 @@ export const stocks = [
         value: 1.086005560704356,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>108.60%</Text>,
@@ -5659,7 +5660,7 @@ export const stocks = [
         value: 1.377566604445953,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>137.76%</Text>,
@@ -5668,7 +5669,7 @@ export const stocks = [
         value: 1.0031294007197622,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.31%</Text>,
@@ -5677,7 +5678,7 @@ export const stocks = [
         value: 1.18804704595186,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>118.80%</Text>,
@@ -5686,7 +5687,7 @@ export const stocks = [
         value: 1.5766910130200062,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>157.67%</Text>,
@@ -5697,7 +5698,7 @@ export const stocks = [
         value: 0.5488806813899149,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>54.89%</Text>,
@@ -5706,7 +5707,7 @@ export const stocks = [
         value: 0.557581352411724,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>55.76%</Text>,
@@ -5715,7 +5716,7 @@ export const stocks = [
         value: 0.3717624327184064,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>37.18%</Text>,
@@ -5724,7 +5725,7 @@ export const stocks = [
         value: 0.41139266332068386,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>41.14%</Text>,
@@ -5733,7 +5734,7 @@ export const stocks = [
         value: 0.49949089724269946,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>49.95%</Text>,
@@ -5762,7 +5763,7 @@ export const stocks = [
         value: 10019000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$10.02B</Text>,
@@ -5771,7 +5772,7 @@ export const stocks = [
         value: 19079000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$19.08B</Text>,
@@ -5780,7 +5781,7 @@ export const stocks = [
         value: 17576000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$17.58B</Text>,
@@ -5789,7 +5790,7 @@ export const stocks = [
         value: 16601000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$16.60B</Text>,
@@ -5798,7 +5799,7 @@ export const stocks = [
         value: 14681000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$14.68B</Text>,
@@ -5809,7 +5810,7 @@ export const stocks = [
         value: 500000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$500.00M</Text>,
@@ -5818,7 +5819,7 @@ export const stocks = [
         value: 10324000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$10.32B</Text>,
@@ -5827,7 +5828,7 @@ export const stocks = [
         value: 10654000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$10.65B</Text>,
@@ -5836,7 +5837,7 @@ export const stocks = [
         value: 13873000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$13.87B</Text>,
@@ -5845,7 +5846,7 @@ export const stocks = [
         value: 26591000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$26.59B</Text>,
@@ -5856,7 +5857,7 @@ export const stocks = [
         value: 22112000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$22.11B</Text>,
@@ -5865,7 +5866,7 @@ export const stocks = [
         value: 18485000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$18.49B</Text>,
@@ -5874,7 +5875,7 @@ export const stocks = [
         value: 29146000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$29.15B</Text>,
@@ -5883,7 +5884,7 @@ export const stocks = [
         value: 39370000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$39.37B</Text>,
@@ -5892,7 +5893,7 @@ export const stocks = [
         value: 23200000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$23.20B</Text>,
@@ -5903,7 +5904,7 @@ export const stocks = [
         value: 0.8324617643898421,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>83.25%</Text>,
@@ -5912,7 +5913,7 @@ export const stocks = [
         value: 0.8193699874110641,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>81.94%</Text>,
@@ -5921,7 +5922,7 @@ export const stocks = [
         value: 0.8058279532367824,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>80.58%</Text>,
@@ -5930,7 +5931,7 @@ export const stocks = [
         value: 0.8079437627725157,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>80.79%</Text>,
@@ -5939,7 +5940,7 @@ export const stocks = [
         value: 0.7834729737841848,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>78.35%</Text>,
@@ -5950,7 +5951,7 @@ export const stocks = [
         value: 0.39600272216053584,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>39.60%</Text>,
@@ -5959,7 +5960,7 @@ export const stocks = [
         value: 0.2614679547929898,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>26.15%</Text>,
@@ -5968,7 +5969,7 @@ export const stocks = [
         value: 0.3390449601582039,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>33.90%</Text>,
@@ -5977,7 +5978,7 @@ export const stocks = [
         value: 0.3338449405998525,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>33.38%</Text>,
@@ -5986,7 +5987,7 @@ export const stocks = [
         value: 0.19895548371051977,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>19.90%</Text>,
@@ -5997,7 +5998,7 @@ export const stocks = [
         value: 15359000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$15.36B</Text>,
@@ -6006,7 +6007,7 @@ export const stocks = [
         value: 21212000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$21.21B</Text>,
@@ -6015,7 +6016,7 @@ export const stocks = [
         value: 23632000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$23.63B</Text>,
@@ -6024,7 +6025,7 @@ export const stocks = [
         value: 39116000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$39.12B</Text>,
@@ -6033,7 +6034,7 @@ export const stocks = [
         value: 19044000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$19.04B</Text>,
@@ -6044,7 +6045,7 @@ export const stocks = [
         value: 55838000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$55.84B</Text>,
@@ -6053,7 +6054,7 @@ export const stocks = [
         value: 70697000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$70.70B</Text>,
@@ -6062,7 +6063,7 @@ export const stocks = [
         value: 85965000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$85.97B</Text>,
@@ -6071,7 +6072,7 @@ export const stocks = [
         value: 117929000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$117.93B</Text>,
@@ -6080,7 +6081,7 @@ export const stocks = [
         value: 116609000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$116.61B</Text>,
@@ -6091,7 +6092,7 @@ export const stocks = [
         value: 0.2628407051243953,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>26.28%</Text>,
@@ -6100,7 +6101,7 @@ export const stocks = [
         value: 0.18292200209788825,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>18.29%</Text>,
@@ -6109,7 +6110,7 @@ export const stocks = [
         value: 0.22718840127835374,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>22.72%</Text>,
@@ -6118,7 +6119,7 @@ export const stocks = [
         value: 0.31526517669103693,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>31.53%</Text>,
@@ -6127,7 +6128,7 @@ export const stocks = [
         value: 0.18454734196145187,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>18.45%</Text>,
@@ -6138,7 +6139,7 @@ export const stocks = [
         value: 0.27583954294318896,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>27.58%</Text>,
@@ -6147,7 +6148,7 @@ export const stocks = [
         value: 0.20271629353549184,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>20.27%</Text>,
@@ -6156,7 +6157,7 @@ export const stocks = [
         value: 0.22635535386427408,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>22.64%</Text>,
@@ -6165,7 +6166,7 @@ export const stocks = [
         value: 0.3227639245574794,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>32.28%</Text>,
@@ -6174,7 +6175,7 @@ export const stocks = [
         value: 0.18238070333520268,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>18.24%</Text>,
@@ -6203,7 +6204,7 @@ export const stocks = [
         value: 11356000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$11.36B</Text>,
@@ -6212,7 +6213,7 @@ export const stocks = [
         value: 13576000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$13.58B</Text>,
@@ -6221,7 +6222,7 @@ export const stocks = [
         value: 14224000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$14.22B</Text>,
@@ -6230,7 +6231,7 @@ export const stocks = [
         value: 13931000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$13.93B</Text>,
@@ -6239,7 +6240,7 @@ export const stocks = [
         value: 34704000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$34.70B</Text>,
@@ -6250,7 +6251,7 @@ export const stocks = [
         value: 78366000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$78.37B</Text>,
@@ -6259,7 +6260,7 @@ export const stocks = [
         value: 70998000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$71.00B</Text>,
@@ -6268,7 +6269,7 @@ export const stocks = [
         value: 67775000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$67.78B</Text>,
@@ -6277,7 +6278,7 @@ export const stocks = [
         value: 61270000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$61.27B</Text>,
@@ -6286,7 +6287,7 @@ export const stocks = [
         value: 59965000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$59.97B</Text>,
@@ -6297,7 +6298,7 @@ export const stocks = [
         value: 39240000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$39.24B</Text>,
@@ -6306,7 +6307,7 @@ export const stocks = [
         value: 44281000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$44.28B</Text>,
@@ -6315,7 +6316,7 @@ export const stocks = [
         value: 61271000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$61.27B</Text>,
@@ -6324,7 +6325,7 @@ export const stocks = [
         value: 72738000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$72.74B</Text>,
@@ -6333,7 +6334,7 @@ export const stocks = [
         value: 72361000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$72.36B</Text>,
@@ -6344,7 +6345,7 @@ export const stocks = [
         value: 0.6590195720063889,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>65.90%</Text>,
@@ -6353,7 +6354,7 @@ export const stocks = [
         value: 0.6778100199279796,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>67.78%</Text>,
@@ -6362,7 +6363,7 @@ export const stocks = [
         value: 0.689258007710247,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>68.93%</Text>,
@@ -6371,7 +6372,7 @@ export const stocks = [
         value: 0.684016744842891,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>68.40%</Text>,
@@ -6380,7 +6381,7 @@ export const stocks = [
         value: 0.6892008588349102,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>68.92%</Text>,
@@ -6391,7 +6392,7 @@ export const stocks = [
         value: 0.3118171054409065,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>31.18%</Text>,
@@ -6400,7 +6401,7 @@ export const stocks = [
         value: 0.3096248645247002,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>30.96%</Text>,
@@ -6409,7 +6410,7 @@ export const stocks = [
         value: 0.36451739564989766,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>36.45%</Text>,
@@ -6418,7 +6419,7 @@ export const stocks = [
         value: 0.3668633681343622,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>36.69%</Text>,
@@ -6427,7 +6428,7 @@ export const stocks = [
         value: 0.3414623787839464,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>34.15%</Text>,
@@ -6438,7 +6439,7 @@ export const stocks = [
         value: 38260000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$38.26B</Text>,
@@ -6447,7 +6448,7 @@ export const stocks = [
         value: 45234000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$45.23B</Text>,
@@ -6456,7 +6457,7 @@ export const stocks = [
         value: 56118000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$56.12B</Text>,
@@ -6465,7 +6466,7 @@ export const stocks = [
         value: 65149000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$65.15B</Text>,
@@ -6474,7 +6475,7 @@ export const stocks = [
         value: 59475000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$59.48B</Text>,
@@ -6485,7 +6486,7 @@ export const stocks = [
         value: 125843000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$125.84B</Text>,
@@ -6494,7 +6495,7 @@ export const stocks = [
         value: 143015000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$143.02B</Text>,
@@ -6503,7 +6504,7 @@ export const stocks = [
         value: 168088000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$168.09B</Text>,
@@ -6512,7 +6513,7 @@ export const stocks = [
         value: 198270000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$198.27B</Text>,
@@ -6521,7 +6522,7 @@ export const stocks = [
         value: 211915000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$211.92B</Text>,
@@ -6532,7 +6533,7 @@ export const stocks = [
         value: 0.3834652594547054,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>38.35%</Text>,
@@ -6541,7 +6542,7 @@ export const stocks = [
         value: 0.37429841763592103,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>37.43%</Text>,
@@ -6550,7 +6551,7 @@ export const stocks = [
         value: 0.4315223821731414,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>43.15%</Text>,
@@ -6559,7 +6560,7 @@ export const stocks = [
         value: 0.4367546925099975,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>43.68%</Text>,
@@ -6568,7 +6569,7 @@ export const stocks = [
         value: 0.35088714643856406,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>35.09%</Text>,
@@ -6579,7 +6580,7 @@ export const stocks = [
         value: 0.1978437476972957,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>19.78%</Text>,
@@ -6588,7 +6589,7 @@ export const stocks = [
         value: 0.231260998860267,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>23.13%</Text>,
@@ -6597,7 +6598,7 @@ export const stocks = [
         value: 0.28522939597424957,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>28.52%</Text>,
@@ -6606,7 +6607,7 @@ export const stocks = [
         value: 0.309102973776496,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>30.91%</Text>,
@@ -6615,7 +6616,7 @@ export const stocks = [
         value: 0.28757386454079725,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>28.76%</Text>,
@@ -6644,7 +6645,7 @@ export const stocks = [
         value: 184500000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$184.50M</Text>,
@@ -6653,7 +6654,7 @@ export const stocks = [
         value: 280300000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$280.30M</Text>,
@@ -6662,7 +6663,7 @@ export const stocks = [
         value: 163600000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$163.60M</Text>,
@@ -6671,7 +6672,7 @@ export const stocks = [
         value: 256400000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$256.40M</Text>,
@@ -6680,7 +6681,7 @@ export const stocks = [
         value: 60500000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$60.50M</Text>,
@@ -6691,7 +6692,7 @@ export const stocks = [
         value: 863300000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$863.30M</Text>,
@@ -6700,7 +6701,7 @@ export const stocks = [
         value: 1038100000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$1.04B</Text>,
@@ -6709,7 +6710,7 @@ export const stocks = [
         value: 1002400000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$1.00B</Text>,
@@ -6718,7 +6719,7 @@ export const stocks = [
         value: 2224000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.22B</Text>,
@@ -6727,7 +6728,7 @@ export const stocks = [
         value: 2251100000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.25B</Text>,
@@ -6738,7 +6739,7 @@ export const stocks = [
         value: 213600000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$213.60M</Text>,
@@ -6747,7 +6748,7 @@ export const stocks = [
         value: 154800000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$154.80M</Text>,
@@ -6756,7 +6757,7 @@ export const stocks = [
         value: 386100000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$386.10M</Text>,
@@ -6765,7 +6766,7 @@ export const stocks = [
         value: 396900000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$396.90M</Text>,
@@ -6774,7 +6775,7 @@ export const stocks = [
         value: 672900000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$672.90M</Text>,
@@ -6785,7 +6786,7 @@ export const stocks = [
         value: 0.07584122983520042,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>7.58%</Text>,
@@ -6794,7 +6795,7 @@ export const stocks = [
         value: 0.08026591424051986,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>8.03%</Text>,
@@ -6803,7 +6804,7 @@ export const stocks = [
         value: 0.1280949548573813,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>12.81%</Text>,
@@ -6812,7 +6813,7 @@ export const stocks = [
         value: 0.10650038881368624,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>10.65%</Text>,
@@ -6821,7 +6822,7 @@ export const stocks = [
         value: 0.10235817470709414,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>10.24%</Text>,
@@ -6832,7 +6833,7 @@ export const stocks = [
         value: 0.014871648483245027,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.49%</Text>,
@@ -6841,7 +6842,7 @@ export const stocks = [
         value: 0.011029883288444273,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.10%</Text>,
@@ -6850,7 +6851,7 @@ export const stocks = [
         value: 0.034276430847900004,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>3.43%</Text>,
@@ -6859,7 +6860,7 @@ export const stocks = [
         value: 0.022862244751015236,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>2.29%</Text>,
@@ -6868,7 +6869,7 @@ export const stocks = [
         value: 0.02869986906137908,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>2.87%</Text>,
@@ -6879,7 +6880,7 @@ export const stocks = [
         value: 194400000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$194.40M</Text>,
@@ -6888,7 +6889,7 @@ export const stocks = [
         value: 108500000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$108.50M</Text>,
@@ -6897,7 +6898,7 @@ export const stocks = [
         value: 333000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$333.00M</Text>,
@@ -6906,7 +6907,7 @@ export const stocks = [
         value: 462700000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$462.70M</Text>,
@@ -6915,7 +6916,7 @@ export const stocks = [
         value: 689400000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$689.40M</Text>,
@@ -6926,7 +6927,7 @@ export const stocks = [
         value: 14362900000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$14.36B</Text>,
@@ -6935,7 +6936,7 @@ export const stocks = [
         value: 14034600000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$14.03B</Text>,
@@ -6944,7 +6945,7 @@ export const stocks = [
         value: 11264300000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$11.26B</Text>,
@@ -6953,7 +6954,7 @@ export const stocks = [
         value: 17360500000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$17.36B</Text>,
@@ -6962,7 +6963,7 @@ export const stocks = [
         value: 23446100000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$23.45B</Text>,
@@ -6973,7 +6974,7 @@ export const stocks = [
         value: 0.2645856558900037,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>26.46%</Text>,
@@ -6982,7 +6983,7 @@ export const stocks = [
         value: 0.19277708592777085,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>19.28%</Text>,
@@ -6991,7 +6992,7 @@ export const stocks = [
         value: 0.492411682183395,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>49.24%</Text>,
@@ -7000,7 +7001,7 @@ export const stocks = [
         value: 0.4916997026759167,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>49.17%</Text>,
@@ -7009,7 +7010,7 @@ export const stocks = [
         value: 1.0502575308256594,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>105.03%</Text>,
@@ -7020,7 +7021,7 @@ export const stocks = [
         value: 0.17267753757900886,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>17.27%</Text>,
@@ -7029,7 +7030,7 @@ export const stocks = [
         value: 0.12304096783062964,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>12.30%</Text>,
@@ -7038,7 +7039,7 @@ export const stocks = [
         value: 0.25944490856771557,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>25.94%</Text>,
@@ -7047,7 +7048,7 @@ export const stocks = [
         value: 0.17907438702600137,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>17.91%</Text>,
@@ -7056,7 +7057,7 @@ export const stocks = [
         value: 0.29623738146222084,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>29.62%</Text>,
@@ -7085,7 +7086,7 @@ export const stocks = [
         value: 782000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$782.00M</Text>,
@@ -7094,7 +7095,7 @@ export const stocks = [
         value: 10896000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$10.90B</Text>,
@@ -7103,7 +7104,7 @@ export const stocks = [
         value: 847000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$847.00M</Text>,
@@ -7112,7 +7113,7 @@ export const stocks = [
         value: 1990000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$1.99B</Text>,
@@ -7121,7 +7122,7 @@ export const stocks = [
         value: 3389000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$3.39B</Text>,
@@ -7132,7 +7133,7 @@ export const stocks = [
         value: 1988000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$1.99B</Text>,
@@ -7141,7 +7142,7 @@ export const stocks = [
         value: 2552000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.55B</Text>,
@@ -7150,7 +7151,7 @@ export const stocks = [
         value: 7597000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$7.60B</Text>,
@@ -7159,7 +7160,7 @@ export const stocks = [
         value: 11687000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$11.69B</Text>,
@@ -7168,7 +7169,7 @@ export const stocks = [
         value: 11855000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$11.86B</Text>,
@@ -7179,7 +7180,7 @@ export const stocks = [
         value: 4141000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$4.14B</Text>,
@@ -7188,7 +7189,7 @@ export const stocks = [
         value: 2796000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.80B</Text>,
@@ -7197,7 +7198,7 @@ export const stocks = [
         value: 4332000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$4.33B</Text>,
@@ -7206,7 +7207,7 @@ export const stocks = [
         value: 9752000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$9.75B</Text>,
@@ -7215,7 +7216,7 @@ export const stocks = [
         value: 4368000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$4.37B</Text>,
@@ -7226,7 +7227,7 @@ export const stocks = [
         value: 0.6120689655172413,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>61.21%</Text>,
@@ -7235,7 +7236,7 @@ export const stocks = [
         value: 0.619893753434695,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>61.99%</Text>,
@@ -7244,7 +7245,7 @@ export const stocks = [
         value: 0.623448275862069,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>62.34%</Text>,
@@ -7253,7 +7254,7 @@ export const stocks = [
         value: 0.6492903321691313,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>64.93%</Text>,
@@ -7262,7 +7263,7 @@ export const stocks = [
         value: 0.5692889449099132,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>56.93%</Text>,
@@ -7273,7 +7274,7 @@ export const stocks = [
         value: 0.35344827586206895,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>35.34%</Text>,
@@ -7282,7 +7283,7 @@ export const stocks = [
         value: 0.2560908591317091,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>25.61%</Text>,
@@ -7291,7 +7292,7 @@ export const stocks = [
         value: 0.25979010494752625,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>25.98%</Text>,
@@ -7300,7 +7301,7 @@ export const stocks = [
         value: 0.3623393029649996,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>36.23%</Text>,
@@ -7309,7 +7310,7 @@ export const stocks = [
         value: 0.16193371394676356,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>16.19%</Text>,
@@ -7320,7 +7321,7 @@ export const stocks = [
         value: 3143000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$3.14B</Text>,
@@ -7329,7 +7330,7 @@ export const stocks = [
         value: 4272000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$4.27B</Text>,
@@ -7338,7 +7339,7 @@ export const stocks = [
         value: 4694000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$4.69B</Text>,
@@ -7347,7 +7348,7 @@ export const stocks = [
         value: 8132000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$8.13B</Text>,
@@ -7356,7 +7357,7 @@ export const stocks = [
         value: 3808000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$3.81B</Text>,
@@ -7367,7 +7368,7 @@ export const stocks = [
         value: 11716000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$11.72B</Text>,
@@ -7376,7 +7377,7 @@ export const stocks = [
         value: 10918000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$10.92B</Text>,
@@ -7385,7 +7386,7 @@ export const stocks = [
         value: 16675000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$16.68B</Text>,
@@ -7394,7 +7395,7 @@ export const stocks = [
         value: 26914000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$26.91B</Text>,
@@ -7403,7 +7404,7 @@ export const stocks = [
         value: 26974000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$26.97B</Text>,
@@ -7414,7 +7415,7 @@ export const stocks = [
         value: 0.44326696638835367,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>44.33%</Text>,
@@ -7423,7 +7424,7 @@ export const stocks = [
         value: 0.22910521140609635,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>22.91%</Text>,
@@ -7432,7 +7433,7 @@ export const stocks = [
         value: 0.2564375776949032,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>25.64%</Text>,
@@ -7441,7 +7442,7 @@ export const stocks = [
         value: 0.3664512250112731,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>36.65%</Text>,
@@ -7450,7 +7451,7 @@ export const stocks = [
         value: 0.19763811592235644,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>19.76%</Text>,
@@ -7461,7 +7462,7 @@ export const stocks = [
         value: 0.3179804396890412,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>31.80%</Text>,
@@ -7470,7 +7471,7 @@ export const stocks = [
         value: 0.18324641040499645,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>18.32%</Text>,
@@ -7479,7 +7480,7 @@ export const stocks = [
         value: 0.18225689696774713,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>18.23%</Text>,
@@ -7488,7 +7489,7 @@ export const stocks = [
         value: 0.2519572417946402,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>25.20%</Text>,
@@ -7497,7 +7498,7 @@ export const stocks = [
         value: 0.12201392299026546,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>12.20%</Text>,
@@ -7526,7 +7527,7 @@ export const stocks = [
         value: 190282000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$190.28M</Text>,
@@ -7535,7 +7536,7 @@ export const stocks = [
         value: 401430000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$401.43M</Text>,
@@ -7544,7 +7545,7 @@ export const stocks = [
         value: 462564000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$462.56M</Text>,
@@ -7553,7 +7554,7 @@ export const stocks = [
         value: 186312000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$186.31M</Text>,
@@ -7562,7 +7563,7 @@ export const stocks = [
         value: 186312000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$186.31M</Text>,
@@ -7573,7 +7574,7 @@ export const stocks = [
         value: 45000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$45.00M</Text>,
@@ -7582,7 +7583,7 @@ export const stocks = [
         value: 99931000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$99.93M</Text>,
@@ -7591,7 +7592,7 @@ export const stocks = [
         value: 99947000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$99.95M</Text>,
@@ -7600,7 +7601,7 @@ export const stocks = [
         value: 99963000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$99.96M</Text>,
@@ -7609,7 +7610,7 @@ export const stocks = [
         value: 99963000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$99.96M</Text>,
@@ -7620,7 +7621,7 @@ export const stocks = [
         value: 605668000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$605.67M</Text>,
@@ -7629,7 +7630,7 @@ export const stocks = [
         value: 672682000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$672.68M</Text>,
@@ -7638,7 +7639,7 @@ export const stocks = [
         value: 1034375000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$1.03B</Text>,
@@ -7647,7 +7648,7 @@ export const stocks = [
         value: 1377159000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$1.38B</Text>,
@@ -7656,7 +7657,7 @@ export const stocks = [
         value: 1377159000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$1.38B</Text>,
@@ -7667,7 +7668,7 @@ export const stocks = [
         value: 0.28296966017466696,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>28.30%</Text>,
@@ -7676,7 +7677,7 @@ export const stocks = [
         value: 0.3059921611484961,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>30.60%</Text>,
@@ -7685,7 +7686,7 @@ export const stocks = [
         value: 0.3376996260507335,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>33.77%</Text>,
@@ -7694,7 +7695,7 @@ export const stocks = [
         value: 0.3603990813531527,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>36.04%</Text>,
@@ -7703,7 +7704,7 @@ export const stocks = [
         value: 0.3603990813531527,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>36.04%</Text>,
@@ -7714,7 +7715,7 @@ export const stocks = [
         value: 0.1497808316403685,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>14.98%</Text>,
@@ -7723,7 +7724,7 @@ export const stocks = [
         value: 0.15329968227670893,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>15.33%</Text>,
@@ -7732,7 +7733,7 @@ export const stocks = [
         value: 0.19678661605592346,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>19.68%</Text>,
@@ -7741,7 +7742,7 @@ export const stocks = [
         value: 0.1652335905772405,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>16.52%</Text>,
@@ -7750,7 +7751,7 @@ export const stocks = [
         value: 0.21999074452279102,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>22.00%</Text>,
@@ -7761,7 +7762,7 @@ export const stocks = [
         value: 311824000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$311.82M</Text>,
@@ -7770,7 +7771,7 @@ export const stocks = [
         value: 707943000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$707.94M</Text>,
@@ -7779,7 +7780,7 @@ export const stocks = [
         value: 662529000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$662.53M</Text>,
@@ -7788,7 +7789,7 @@ export const stocks = [
         value: 916434000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$916.43M</Text>,
@@ -7797,7 +7798,7 @@ export const stocks = [
         value: 916434000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$916.43M</Text>,
@@ -7808,7 +7809,7 @@ export const stocks = [
         value: 4043695000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$4.04B</Text>,
@@ -7817,7 +7818,7 @@ export const stocks = [
         value: 4109111000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$4.11B</Text>,
@@ -7826,7 +7827,7 @@ export const stocks = [
         value: 4015129000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$4.02B</Text>,
@@ -7835,7 +7836,7 @@ export const stocks = [
         value: 5256328000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$5.26B</Text>,
@@ -7844,7 +7845,7 @@ export const stocks = [
         value: 6260077000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$6.26B</Text>,
@@ -7855,7 +7856,7 @@ export const stocks = [
         value: 0.2259547999371755,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>22.60%</Text>,
@@ -7864,7 +7865,7 @@ export const stocks = [
         value: 0.1850465143126512,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>18.50%</Text>,
@@ -7873,7 +7874,7 @@ export const stocks = [
         value: 0.2810949052491068,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>28.11%</Text>,
@@ -7882,7 +7883,7 @@ export const stocks = [
         value: 0.28316411240660544,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>28.32%</Text>,
@@ -7891,7 +7892,7 @@ export const stocks = [
         value: 0.37700254344678513,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>37.70%</Text>,
@@ -7902,7 +7903,7 @@ export const stocks = [
         value: 0.2562452349045068,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>25.62%</Text>,
@@ -7911,7 +7912,7 @@ export const stocks = [
         value: 0.16086935850340817,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>16.09%</Text>,
@@ -7920,7 +7921,7 @@ export const stocks = [
         value: 0.31937181426155126,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>31.94%</Text>,
@@ -7929,7 +7930,7 @@ export const stocks = [
         value: 0.4271780398192822,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>42.72%</Text>,
@@ -7938,7 +7939,7 @@ export const stocks = [
         value: 0.4271780398192822,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>42.72%</Text>,
@@ -7967,7 +7968,7 @@ export const stocks = [
         value: 41026000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$41.03M</Text>,
@@ -7976,7 +7977,7 @@ export const stocks = [
         value: 87559000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$87.56M</Text>,
@@ -7985,7 +7986,7 @@ export const stocks = [
         value: 74132000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$74.13M</Text>,
@@ -7994,7 +7995,7 @@ export const stocks = [
         value: 137328000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$137.33M</Text>,
@@ -8003,7 +8004,7 @@ export const stocks = [
         value: 173719000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$173.72M</Text>,
@@ -8014,7 +8015,7 @@ export const stocks = [
         value: 1565000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$1.57M</Text>,
@@ -8023,7 +8024,7 @@ export const stocks = [
         value: 51678000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$51.68M</Text>,
@@ -8032,7 +8033,7 @@ export const stocks = [
         value: 57372000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$57.37M</Text>,
@@ -8041,7 +8042,7 @@ export const stocks = [
         value: 48522000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$48.52M</Text>,
@@ -8050,7 +8051,7 @@ export const stocks = [
         value: 42181000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$42.18M</Text>,
@@ -8061,7 +8062,7 @@ export const stocks = [
         value: 57304000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$57.30M</Text>,
@@ -8070,7 +8071,7 @@ export const stocks = [
         value: 69336000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$69.34M</Text>,
@@ -8079,7 +8080,7 @@ export const stocks = [
         value: 91572000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$91.57M</Text>,
@@ -8088,7 +8089,7 @@ export const stocks = [
         value: 70960000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$70.96M</Text>,
@@ -8097,7 +8098,7 @@ export const stocks = [
         value: 107992000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$107.99M</Text>,
@@ -8108,7 +8109,7 @@ export const stocks = [
         value: 0.7626833614807325,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>76.27%</Text>,
@@ -8117,7 +8118,7 @@ export const stocks = [
         value: 0.7838448789982805,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>78.38%</Text>,
@@ -8126,7 +8127,7 @@ export const stocks = [
         value: 0.7817243079873155,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>78.17%</Text>,
@@ -8135,7 +8136,7 @@ export const stocks = [
         value: 0.7824778924634946,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>78.25%</Text>,
@@ -8144,7 +8145,7 @@ export const stocks = [
         value: 0.7901099192808996,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>79.01%</Text>,
@@ -8155,7 +8156,7 @@ export const stocks = [
         value: 0.20547242809863422,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>20.55%</Text>,
@@ -8164,7 +8165,7 @@ export const stocks = [
         value: 0.21559232230641745,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>21.56%</Text>,
@@ -8173,7 +8174,7 @@ export const stocks = [
         value: 0.2522901783377369,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>25.23%</Text>,
@@ -8182,7 +8183,7 @@ export const stocks = [
         value: 0.17257984493107506,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>17.26%</Text>,
@@ -8191,7 +8192,7 @@ export const stocks = [
         value: 0.2205164960600176,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>22.05%</Text>,
@@ -8202,7 +8203,7 @@ export const stocks = [
         value: 102690000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$102.69M</Text>,
@@ -8211,7 +8212,7 @@ export const stocks = [
         value: 133034000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$133.03M</Text>,
@@ -8220,7 +8221,7 @@ export const stocks = [
         value: 150049000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$150.05M</Text>,
@@ -8229,7 +8230,7 @@ export const stocks = [
         value: 174962000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$174.96M</Text>,
@@ -8238,7 +8239,7 @@ export const stocks = [
         value: 174873000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$174.87M</Text>,
@@ -8249,7 +8250,7 @@ export const stocks = [
         value: 278889000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$278.89M</Text>,
@@ -8258,7 +8259,7 @@ export const stocks = [
         value: 321607000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$321.61M</Text>,
@@ -8267,7 +8268,7 @@ export const stocks = [
         value: 362963000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$362.96M</Text>,
@@ -8276,7 +8277,7 @@ export const stocks = [
         value: 411172000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$411.17M</Text>,
@@ -8285,7 +8286,7 @@ export const stocks = [
         value: 489723000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$489.72M</Text>,
@@ -8296,7 +8297,7 @@ export const stocks = [
         value: 0.16007195751824776,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>16.01%</Text>,
@@ -8305,7 +8306,7 @@ export const stocks = [
         value: 0.17925403887767158,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>17.93%</Text>,
@@ -8314,7 +8315,7 @@ export const stocks = [
         value: 0.2263932634826766,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>22.64%</Text>,
@@ -8323,7 +8324,7 @@ export const stocks = [
         value: 0.16248620378554385,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>16.25%</Text>,
@@ -8332,7 +8333,7 @@ export const stocks = [
         value: 0.37350801891197355,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>37.35%</Text>,
@@ -8343,7 +8344,7 @@ export const stocks = [
         value: 0.1295383167040921,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>12.95%</Text>,
@@ -8352,7 +8353,7 @@ export const stocks = [
         value: 0.15980192019746053,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>15.98%</Text>,
@@ -8361,7 +8362,7 @@ export const stocks = [
         value: 0.20090669294039148,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>20.09%</Text>,
@@ -8370,7 +8371,7 @@ export const stocks = [
         value: 0.17183344797649913,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>17.18%</Text>,
@@ -8379,7 +8380,7 @@ export const stocks = [
         value: 0.37432509541136566,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>37.43%</Text>,
@@ -8408,7 +8409,7 @@ export const stocks = [
         value: 21453000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$21.45B</Text>,
@@ -8417,7 +8418,7 @@ export const stocks = [
         value: 22405000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$22.41B</Text>,
@@ -8426,7 +8427,7 @@ export const stocks = [
         value: 62580000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$62.58B</Text>,
@@ -8435,7 +8436,7 @@ export const stocks = [
         value: 28905000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$28.91B</Text>,
@@ -8444,7 +8445,7 @@ export const stocks = [
         value: 53542000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$53.54B</Text>,
@@ -8455,7 +8456,7 @@ export const stocks = [
         value: 55479000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$55.48B</Text>,
@@ -8464,7 +8465,7 @@ export const stocks = [
         value: 63890000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$63.89B</Text>,
@@ -8473,7 +8474,7 @@ export const stocks = [
         value: 53063000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$53.06B</Text>,
@@ -8482,7 +8483,7 @@ export const stocks = [
         value: 43921000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$43.92B</Text>,
@@ -8491,7 +8492,7 @@ export const stocks = [
         value: 71045000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$71.05B</Text>,
@@ -8502,7 +8503,7 @@ export const stocks = [
         value: 7096000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$7.10B</Text>,
@@ -8511,7 +8512,7 @@ export const stocks = [
         value: 6914000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$6.91B</Text>,
@@ -8520,7 +8521,7 @@ export const stocks = [
         value: 4959000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$4.96B</Text>,
@@ -8529,7 +8530,7 @@ export const stocks = [
         value: 7963000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$7.96B</Text>,
@@ -8538,7 +8539,7 @@ export const stocks = [
         value: 5825000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$5.83B</Text>,
@@ -8549,7 +8550,7 @@ export const stocks = [
         value: 0.9849029794414103,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>98.49%</Text>,
@@ -8558,7 +8559,7 @@ export const stocks = [
         value: 1,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -8567,7 +8568,7 @@ export const stocks = [
         value: 1,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -8576,7 +8577,7 @@ export const stocks = [
         value: 1,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -8585,7 +8586,7 @@ export const stocks = [
         value: 1,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -8596,7 +8597,7 @@ export const stocks = [
         value: 0.3150836996580969,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>31.51%</Text>,
@@ -8605,7 +8606,7 @@ export const stocks = [
         value: 0.30214569767950006,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>30.21%</Text>,
@@ -8614,7 +8615,7 @@ export const stocks = [
         value: 0.2135107207439938,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>21.35%</Text>,
@@ -8623,7 +8624,7 @@ export const stocks = [
         value: 0.35046872936930595,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>35.05%</Text>,
@@ -8632,7 +8633,7 @@ export const stocks = [
         value: 0.2408617267614952,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>24.09%</Text>,
@@ -8643,7 +8644,7 @@ export const stocks = [
         value: 10564000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$10.56B</Text>,
@@ -8652,7 +8653,7 @@ export const stocks = [
         value: 4889000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$4.89B</Text>,
@@ -8661,7 +8662,7 @@ export const stocks = [
         value: 3716000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$3.72B</Text>,
@@ -8670,7 +8671,7 @@ export const stocks = [
         value: 9870000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$9.87B</Text>,
@@ -8679,7 +8680,7 @@ export const stocks = [
         value: 21119000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$21.12B</Text>,
@@ -8690,7 +8691,7 @@ export const stocks = [
         value: 22521000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$22.52B</Text>,
@@ -8699,7 +8700,7 @@ export const stocks = [
         value: 22883000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$22.88B</Text>,
@@ -8708,7 +8709,7 @@ export const stocks = [
         value: 23226000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$23.23B</Text>,
@@ -8717,7 +8718,7 @@ export const stocks = [
         value: 22721000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$22.72B</Text>,
@@ -8726,7 +8727,7 @@ export const stocks = [
         value: 24184000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$24.18B</Text>,
@@ -8737,7 +8738,7 @@ export const stocks = [
         value: 0.1390581826020498,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>13.91%</Text>,
@@ -8746,7 +8747,7 @@ export const stocks = [
         value: 0.13333847607660115,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>13.33%</Text>,
@@ -8755,7 +8756,7 @@ export const stocks = [
         value: 0.09339862510594218,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>9.34%</Text>,
@@ -8764,7 +8765,7 @@ export const stocks = [
         value: 0.14499799701372956,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>14.50%</Text>,
@@ -8773,7 +8774,7 @@ export const stocks = [
         value: 0.11474215025804672,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>11.47%</Text>,
@@ -8784,7 +8785,7 @@ export const stocks = [
         value: 0.026089529340858036,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>2.61%</Text>,
@@ -8793,7 +8794,7 @@ export const stocks = [
         value: 0.018151251953029766,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.82%</Text>,
@@ -8802,7 +8803,7 @@ export const stocks = [
         value: 0.011113386050440939,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.11%</Text>,
@@ -8811,7 +8812,7 @@ export const stocks = [
         value: 0.018066281024705783,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.81%</Text>,
@@ -8820,7 +8821,7 @@ export const stocks = [
         value: 0.016322528818857998,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.63%</Text>,
@@ -8849,7 +8850,7 @@ export const stocks = [
         value: 7838000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$7.84B</Text>,
@@ -8858,7 +8859,7 @@ export const stocks = [
         value: 16289000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$16.29B</Text>,
@@ -8867,7 +8868,7 @@ export const stocks = [
         value: 16487000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$16.49B</Text>,
@@ -8876,7 +8877,7 @@ export const stocks = [
         value: 15689000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$15.69B</Text>,
@@ -8885,7 +8886,7 @@ export const stocks = [
         value: 16286000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$16.29B</Text>,
@@ -8896,7 +8897,7 @@ export const stocks = [
         value: 16729000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$16.73B</Text>,
@@ -8905,7 +8906,7 @@ export const stocks = [
         value: 24070000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$24.07B</Text>,
@@ -8914,7 +8915,7 @@ export const stocks = [
         value: 20977000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$20.98B</Text>,
@@ -8923,7 +8924,7 @@ export const stocks = [
         value: 22450000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$22.45B</Text>,
@@ -8932,7 +8933,7 @@ export const stocks = [
         value: 20463000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$20.46B</Text>,
@@ -8943,7 +8944,7 @@ export const stocks = [
         value: 12080000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$12.08B</Text>,
@@ -8952,7 +8953,7 @@ export const stocks = [
         value: 10866000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$10.87B</Text>,
@@ -8961,7 +8962,7 @@ export const stocks = [
         value: 12311000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$12.31B</Text>,
@@ -8970,7 +8971,7 @@ export const stocks = [
         value: 14957000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$14.96B</Text>,
@@ -8979,7 +8980,7 @@ export const stocks = [
         value: 17273000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$17.27B</Text>,
@@ -8990,7 +8991,7 @@ export const stocks = [
         value: 0.8187317752535144,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>81.87%</Text>,
@@ -8999,7 +9000,7 @@ export const stocks = [
         value: 0.7934633342488328,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>79.35%</Text>,
@@ -9008,7 +9009,7 @@ export const stocks = [
         value: 0.7938187098112425,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>79.38%</Text>,
@@ -9017,7 +9018,7 @@ export const stocks = [
         value: 0.8044012282497441,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>80.44%</Text>,
@@ -9026,7 +9027,7 @@ export const stocks = [
         value: 0.7988852479098398,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>79.89%</Text>,
@@ -9037,7 +9038,7 @@ export const stocks = [
         value: 0.5257431344387866,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>52.57%</Text>,
@@ -9046,7 +9047,7 @@ export const stocks = [
         value: 0.49739082669596263,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>49.74%</Text>,
@@ -9055,7 +9056,7 @@ export const stocks = [
         value: 0.5107239161999585,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>51.07%</Text>,
@@ -9064,7 +9065,7 @@ export const stocks = [
         value: 0.5103036506311839,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>51.03%</Text>,
@@ -9073,7 +9074,7 @@ export const stocks = [
         value: 0.5289866168499066,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>52.90%</Text>,
@@ -9084,7 +9085,7 @@ export const stocks = [
         value: 12028000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$12.03B</Text>,
@@ -9093,7 +9094,7 @@ export const stocks = [
         value: 9704000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$9.70B</Text>,
@@ -9102,7 +9103,7 @@ export const stocks = [
         value: 14522000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$14.52B</Text>,
@@ -9111,7 +9112,7 @@ export const stocks = [
         value: 17879000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$17.88B</Text>,
@@ -9120,7 +9121,7 @@ export const stocks = [
         value: 19696000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$19.70B</Text>,
@@ -9131,7 +9132,7 @@ export const stocks = [
         value: 20609000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$20.61B</Text>,
@@ -9140,7 +9141,7 @@ export const stocks = [
         value: 22977000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$22.98B</Text>,
@@ -9149,7 +9150,7 @@ export const stocks = [
         value: 21846000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$21.85B</Text>,
@@ -9158,7 +9159,7 @@ export const stocks = [
         value: 24105000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$24.11B</Text>,
@@ -9167,7 +9168,7 @@ export const stocks = [
         value: 29310000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$29.31B</Text>,
@@ -9178,7 +9179,7 @@ export const stocks = [
         value: 0.3482873947641564,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>34.83%</Text>,
@@ -9187,7 +9188,7 @@ export const stocks = [
         value: 0.30008285004142504,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>30.01%</Text>,
@@ -9196,7 +9197,7 @@ export const stocks = [
         value: 0.32751602862539575,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>32.75%</Text>,
@@ -9205,7 +9206,7 @@ export const stocks = [
         value: 0.42036480143897026,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>42.04%</Text>,
@@ -9214,7 +9215,7 @@ export const stocks = [
         value: 0.44595048150156197,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>44.60%</Text>,
@@ -9225,7 +9226,7 @@ export const stocks = [
         value: 0.2535708852414679,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>25.36%</Text>,
@@ -9234,7 +9235,7 @@ export const stocks = [
         value: 0.21203451339426885,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>21.20%</Text>,
@@ -9243,7 +9244,7 @@ export const stocks = [
         value: 0.2353291540718019,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>23.53%</Text>,
@@ -9252,7 +9253,7 @@ export const stocks = [
         value: 0.2910066823412944,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>29.10%</Text>,
@@ -9261,7 +9262,7 @@ export const stocks = [
         value: 0.3115680776249611,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>31.16%</Text>,
@@ -9290,7 +9291,7 @@ export const stocks = [
         value: 173287000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$173.29B</Text>,
@@ -9299,7 +9300,7 @@ export const stocks = [
         value: 141250000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$141.25B</Text>,
@@ -9308,7 +9309,7 @@ export const stocks = [
         value: 264612000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$264.61B</Text>,
@@ -9317,7 +9318,7 @@ export const stocks = [
         value: 234230000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$234.23B</Text>,
@@ -9326,7 +9327,7 @@ export const stocks = [
         value: 159157000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$159.16B</Text>,
@@ -9337,7 +9338,7 @@ export const stocks = [
         value: 334831000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$334.83B</Text>,
@@ -9346,7 +9347,7 @@ export const stocks = [
         value: 332703000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$332.70B</Text>,
@@ -9355,7 +9356,7 @@ export const stocks = [
         value: 271949000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$271.95B</Text>,
@@ -9364,7 +9365,7 @@ export const stocks = [
         value: 195098000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$195.10B</Text>,
@@ -9373,7 +9374,7 @@ export const stocks = [
         value: 226015000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$226.02B</Text>,
@@ -9384,7 +9385,7 @@ export const stocks = [
         value: 22876000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$22.88B</Text>,
@@ -9393,7 +9394,7 @@ export const stocks = [
         value: 20041000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$20.04B</Text>,
@@ -9402,7 +9403,7 @@ export const stocks = [
         value: 3586000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$3.59B</Text>,
@@ -9411,7 +9412,7 @@ export const stocks = [
         value: 23238000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$23.24B</Text>,
@@ -9420,7 +9421,7 @@ export const stocks = [
         value: 12882000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$12.88B</Text>,
@@ -9431,7 +9432,7 @@ export const stocks = [
         value: 1,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -9440,7 +9441,7 @@ export const stocks = [
         value: 1,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -9449,7 +9450,7 @@ export const stocks = [
         value: 1,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -9458,7 +9459,7 @@ export const stocks = [
         value: 1,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -9467,7 +9468,7 @@ export const stocks = [
         value: 1,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>100.00%</Text>,
@@ -9478,7 +9479,7 @@ export const stocks = [
         value: 0.2591542449773169,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>25.92%</Text>,
@@ -9487,7 +9488,7 @@ export const stocks = [
         value: 0.229817899674359,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>22.98%</Text>,
@@ -9496,7 +9497,7 @@ export const stocks = [
         value: 0.045631739010229475,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>4.56%</Text>,
@@ -9505,7 +9506,7 @@ export const stocks = [
         value: 0.2745247923355246,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>27.45%</Text>,
@@ -9514,7 +9515,7 @@ export const stocks = [
         value: 0.17865419800772514,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>17.87%</Text>,
@@ -9525,7 +9526,7 @@ export const stocks = [
         value: 30785000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$30.79B</Text>,
@@ -9534,7 +9535,7 @@ export const stocks = [
         value: 6730000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$6.73B</Text>,
@@ -9543,7 +9544,7 @@ export const stocks = [
         value: 2051000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$2.05B</Text>,
@@ -9552,7 +9553,7 @@ export const stocks = [
         value: -11525000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>-$11.53B</Text>,
@@ -9561,7 +9562,7 @@ export const stocks = [
         value: 27048000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$27.05B</Text>,
@@ -9572,7 +9573,7 @@ export const stocks = [
         value: 86408000000,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$86.41B</Text>,
@@ -9581,7 +9582,7 @@ export const stocks = [
         value: 85063000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$85.06B</Text>,
@@ -9590,7 +9591,7 @@ export const stocks = [
         value: 72340000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$72.34B</Text>,
@@ -9599,7 +9600,7 @@ export const stocks = [
         value: 78492000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$78.49B</Text>,
@@ -9608,7 +9609,7 @@ export const stocks = [
         value: 73785000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$73.79B</Text>,
@@ -9619,7 +9620,7 @@ export const stocks = [
         value: 0.11415331912767758,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>11.42%</Text>,
@@ -9628,7 +9629,7 @@ export const stocks = [
         value: 0.10445855107776816,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>10.45%</Text>,
@@ -9637,7 +9638,7 @@ export const stocks = [
         value: 0.017854148750317763,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.79%</Text>,
@@ -9646,7 +9647,7 @@ export const stocks = [
         value: 0.11485773376118034,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>11.49%</Text>,
@@ -9655,7 +9656,7 @@ export const stocks = [
         value: 0.0732785217550823,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>7.33%</Text>,
@@ -9666,7 +9667,7 @@ export const stocks = [
         value: 0.022686008055134432,
         label: 2018,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>2.27%</Text>,
@@ -9675,7 +9676,7 @@ export const stocks = [
         value: 0.013003533103717246,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.30%</Text>,
@@ -9684,7 +9685,7 @@ export const stocks = [
         value: 0.00015610464073782647,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>0.02%</Text>,
@@ -9693,7 +9694,7 @@ export const stocks = [
         value: 0.014174939213308119,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.42%</Text>,
@@ -9702,7 +9703,7 @@ export const stocks = [
         value: 0.00956952703223342,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>0.96%</Text>,
@@ -9731,7 +9732,7 @@ export const stocks = [
         value: 7722000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$7.72B</Text>,
@@ -9740,7 +9741,7 @@ export const stocks = [
         value: 9465000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$9.47B</Text>,
@@ -9749,7 +9750,7 @@ export const stocks = [
         value: 17741000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$17.74B</Text>,
@@ -9758,7 +9759,7 @@ export const stocks = [
         value: 14760000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$14.76B</Text>,
@@ -9767,7 +9768,7 @@ export const stocks = [
         value: 8885000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$8.89B</Text>,
@@ -9778,7 +9779,7 @@ export const stocks = [
         value: 58033000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$58.03B</Text>,
@@ -9787,7 +9788,7 @@ export const stocks = [
         value: 72433000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$72.43B</Text>,
@@ -9796,7 +9797,7 @@ export const stocks = [
         value: 63246000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$63.25B</Text>,
@@ -9805,7 +9806,7 @@ export const stocks = [
         value: 57323000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$57.32B</Text>,
@@ -9814,7 +9815,7 @@ export const stocks = [
         value: 58923000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$58.92B</Text>,
@@ -9825,7 +9826,7 @@ export const stocks = [
         value: 7179000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$7.18B</Text>,
@@ -9834,7 +9835,7 @@ export const stocks = [
         value: 15201000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$15.20B</Text>,
@@ -9843,7 +9844,7 @@ export const stocks = [
         value: 13706000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$13.71B</Text>,
@@ -9852,7 +9853,7 @@ export const stocks = [
         value: 13940000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$13.94B</Text>,
@@ -9861,7 +9862,7 @@ export const stocks = [
         value: 11292000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$11.29B</Text>,
@@ -9872,7 +9873,7 @@ export const stocks = [
         value: 0.25097734275522204,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>25.10%</Text>,
@@ -9881,7 +9882,7 @@ export const stocks = [
         value: 0.24688528219495995,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>24.69%</Text>,
@@ -9890,7 +9891,7 @@ export const stocks = [
         value: 0.24829786587165184,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>24.83%</Text>,
@@ -9899,7 +9900,7 @@ export const stocks = [
         value: 0.25098733487675334,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>25.10%</Text>,
@@ -9908,7 +9909,7 @@ export const stocks = [
         value: 0.24140463839525986,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>24.14%</Text>,
@@ -9919,7 +9920,7 @@ export const stocks = [
         value: 0.012966436951429322,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.30%</Text>,
@@ -9928,7 +9929,7 @@ export const stocks = [
         value: 0.02840080616225542,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>2.84%</Text>,
@@ -9937,7 +9938,7 @@ export const stocks = [
         value: 0.024161630758059986,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>2.42%</Text>,
@@ -9946,7 +9947,7 @@ export const stocks = [
         value: 0.0238723780191845,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>2.39%</Text>,
@@ -9955,7 +9956,7 @@ export const stocks = [
         value: 0.01910716535059522,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>1.91%</Text>,
@@ -9966,7 +9967,7 @@ export const stocks = [
         value: 17409000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$17.41B</Text>,
@@ -9975,7 +9976,7 @@ export const stocks = [
         value: 14550000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$14.55B</Text>,
@@ -9984,7 +9985,7 @@ export const stocks = [
         value: 25810000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$25.81B</Text>,
@@ -9993,7 +9994,7 @@ export const stocks = [
         value: 11075000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$11.08B</Text>,
@@ -10002,7 +10003,7 @@ export const stocks = [
         value: 12244000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$12.24B</Text>,
@@ -10013,7 +10014,7 @@ export const stocks = [
         value: 514405000000,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$514.41B</Text>,
@@ -10022,7 +10023,7 @@ export const stocks = [
         value: 523964000000,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$523.96B</Text>,
@@ -10031,7 +10032,7 @@ export const stocks = [
         value: 559151000000,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$559.15B</Text>,
@@ -10040,7 +10041,7 @@ export const stocks = [
         value: 572754000000,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$572.75B</Text>,
@@ -10049,7 +10050,7 @@ export const stocks = [
         value: 611289000000,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>$611.29B</Text>,
@@ -10060,7 +10061,7 @@ export const stocks = [
         value: 0.09200507614213198,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>9.20%</Text>,
@@ -10069,7 +10070,7 @@ export const stocks = [
         value: 0.1992928792403809,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>19.93%</Text>,
@@ -10078,7 +10079,7 @@ export const stocks = [
         value: 0.16617874978474256,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>16.62%</Text>,
@@ -10087,7 +10088,7 @@ export const stocks = [
         value: 0.16423432188629838,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>16.42%</Text>,
@@ -10096,7 +10097,7 @@ export const stocks = [
         value: 0.15229551588802107,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>15.23%</Text>,
@@ -10107,7 +10108,7 @@ export const stocks = [
         value: 0.1548251984938442,
         label: 2019,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>15.48%</Text>,
@@ -10116,7 +10117,7 @@ export const stocks = [
         value: 0.129598941432217,
         label: 2020,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>12.96%</Text>,
@@ -10125,7 +10126,7 @@ export const stocks = [
         value: 0.1410563587340711,
         label: 2021,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>14.11%</Text>,
@@ -10134,7 +10135,7 @@ export const stocks = [
         value: 0.16473098342022213,
         label: 2022,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>16.47%</Text>,
@@ -10143,7 +10144,7 @@ export const stocks = [
         value: 0.13528566414347115,
         label: 2023,
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 40,
         },
         topLabelComponent: () => <Text style={{ fontSize: 10 }}>13.53%</Text>,
@@ -10181,7 +10182,7 @@ export const stockPrices = [
         date: "7/1/1986",
         label: "Jul 1986",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10206,7 +10207,7 @@ export const stockPrices = [
         date: "6/30/1992",
         label: "Jun 1992",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10231,7 +10232,7 @@ export const stockPrices = [
         date: "7/1/1997",
         label: "Jul 1997",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10256,7 +10257,7 @@ export const stockPrices = [
         date: "7/1/2003",
         label: "Jul 2003",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10281,7 +10282,7 @@ export const stockPrices = [
         date: "6/30/2009",
         label: "Jun 2009",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10306,7 +10307,7 @@ export const stockPrices = [
         date: "7/1/2014",
         label: "Jul 2014",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10331,7 +10332,7 @@ export const stockPrices = [
         date: "6/30/2020",
         label: "Jun 2020",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10377,7 +10378,7 @@ export const stockPrices = [
         date: "7/1/2003",
         label: "Jul 2003",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10402,7 +10403,7 @@ export const stockPrices = [
         date: "6/30/2009",
         label: "Jun 2009",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10427,7 +10428,7 @@ export const stockPrices = [
         date: "7/1/2014",
         label: "Jul 2014",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10452,7 +10453,7 @@ export const stockPrices = [
         date: "6/30/2020",
         label: "Jun 2020",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10498,7 +10499,7 @@ export const stockPrices = [
         date: "6/30/2020",
         label: "Jun 2020",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10544,7 +10545,7 @@ export const stockPrices = [
         date: "7/1/1980",
         label: "Jul 1980",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10569,7 +10570,7 @@ export const stockPrices = [
         date: "7/2/1985",
         label: "Jul 1985",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10594,7 +10595,7 @@ export const stockPrices = [
         date: "7/2/1991",
         label: "Jul 1991",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10619,7 +10620,7 @@ export const stockPrices = [
         date: "7/2/1996",
         label: "Jul 1996",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10644,7 +10645,7 @@ export const stockPrices = [
         date: "7/2/2002",
         label: "Jul 2002",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10669,7 +10670,7 @@ export const stockPrices = [
         date: "7/1/2008",
         label: "Jul 2008",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10694,7 +10695,7 @@ export const stockPrices = [
         date: "7/2/2013",
         label: "Jul 2013",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10719,7 +10720,7 @@ export const stockPrices = [
         date: "7/2/2019",
         label: "Jul 2019",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10769,7 +10770,7 @@ export const stockPrices = [
         date: "6/28/1983",
         label: "Jun 1983",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10794,7 +10795,7 @@ export const stockPrices = [
         date: "6/28/1988",
         label: "Jun 1988",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10819,7 +10820,7 @@ export const stockPrices = [
         date: "6/28/1994",
         label: "Jun 1994",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10844,7 +10845,7 @@ export const stockPrices = [
         date: "6/29/1999",
         label: "Jun 1999",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10869,7 +10870,7 @@ export const stockPrices = [
         date: "6/28/2005",
         label: "Jun 2005",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10894,7 +10895,7 @@ export const stockPrices = [
         date: "6/28/2011",
         label: "Jun 2011",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10919,7 +10920,7 @@ export const stockPrices = [
         date: "6/28/2016",
         label: "Jun 2016",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10944,7 +10945,7 @@ export const stockPrices = [
         date: "6/28/2022",
         label: "Jun 2022",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -10982,7 +10983,7 @@ export const stockPrices = [
         date: "6/29/1993",
         label: "Jun 1993",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11007,7 +11008,7 @@ export const stockPrices = [
         date: "6/30/1998",
         label: "Jun 1998",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11032,7 +11033,7 @@ export const stockPrices = [
         date: "6/29/2004",
         label: "Jun 2004",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11057,7 +11058,7 @@ export const stockPrices = [
         date: "6/29/2010",
         label: "Jun 2010",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11082,7 +11083,7 @@ export const stockPrices = [
         date: "6/30/2015",
         label: "Jun 2015",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11107,7 +11108,7 @@ export const stockPrices = [
         date: "6/29/2021",
         label: "Jun 2021",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11149,7 +11150,7 @@ export const stockPrices = [
         date: "6/29/1999",
         label: "Jun 1999",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11174,7 +11175,7 @@ export const stockPrices = [
         date: "6/28/2005",
         label: "Jun 2005",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11199,7 +11200,7 @@ export const stockPrices = [
         date: "6/28/2011",
         label: "Jun 2011",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11224,7 +11225,7 @@ export const stockPrices = [
         date: "6/28/2016",
         label: "Jun 2016",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11249,7 +11250,7 @@ export const stockPrices = [
         date: "6/28/2022",
         label: "Jun 2022",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11287,7 +11288,7 @@ export const stockPrices = [
         date: "Invalid Date",
         label: "Invalid Date",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11312,7 +11313,7 @@ export const stockPrices = [
         date: "7/2/1974",
         label: "Jul 1974",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11337,7 +11338,7 @@ export const stockPrices = [
         date: "7/1/1980",
         label: "Jul 1980",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11362,7 +11363,7 @@ export const stockPrices = [
         date: "7/2/1985",
         label: "Jul 1985",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11387,7 +11388,7 @@ export const stockPrices = [
         date: "7/2/1991",
         label: "Jul 1991",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11412,7 +11413,7 @@ export const stockPrices = [
         date: "7/2/1996",
         label: "Jul 1996",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11437,7 +11438,7 @@ export const stockPrices = [
         date: "7/2/2002",
         label: "Jul 2002",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11462,7 +11463,7 @@ export const stockPrices = [
         date: "7/1/2008",
         label: "Jul 2008",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11487,7 +11488,7 @@ export const stockPrices = [
         date: "7/2/2013",
         label: "Jul 2013",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11512,7 +11513,7 @@ export const stockPrices = [
         date: "7/2/2019",
         label: "Jul 2019",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11562,7 +11563,7 @@ export const stockPrices = [
         date: "6/28/2011",
         label: "Jun 2011",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11587,7 +11588,7 @@ export const stockPrices = [
         date: "6/28/2016",
         label: "Jun 2016",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11612,7 +11613,7 @@ export const stockPrices = [
         date: "6/28/2022",
         label: "Jun 2022",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11650,7 +11651,7 @@ export const stockPrices = [
         date: "6/30/1998",
         label: "Jun 1998",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11675,7 +11676,7 @@ export const stockPrices = [
         date: "6/29/2004",
         label: "Jun 2004",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11700,7 +11701,7 @@ export const stockPrices = [
         date: "6/29/2010",
         label: "Jun 2010",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11725,7 +11726,7 @@ export const stockPrices = [
         date: "6/30/2015",
         label: "Jun 2015",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11750,7 +11751,7 @@ export const stockPrices = [
         date: "6/29/2021",
         label: "Jun 2021",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11792,7 +11793,7 @@ export const stockPrices = [
         date: "7/2/1985",
         label: "Jul 1985",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11817,7 +11818,7 @@ export const stockPrices = [
         date: "7/2/1991",
         label: "Jul 1991",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11842,7 +11843,7 @@ export const stockPrices = [
         date: "7/2/1996",
         label: "Jul 1996",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11867,7 +11868,7 @@ export const stockPrices = [
         date: "7/2/2002",
         label: "Jul 2002",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11892,7 +11893,7 @@ export const stockPrices = [
         date: "7/1/2008",
         label: "Jul 2008",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11917,7 +11918,7 @@ export const stockPrices = [
         date: "7/2/2013",
         label: "Jul 2013",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11942,7 +11943,7 @@ export const stockPrices = [
         date: "7/2/2019",
         label: "Jul 2019",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -11992,7 +11993,7 @@ export const stockPrices = [
         date: "6/27/2023",
         label: "Jun 2023",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12026,7 +12027,7 @@ export const stockPrices = [
         date: "6/26/2012",
         label: "Jun 2012",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12051,7 +12052,7 @@ export const stockPrices = [
         date: "6/27/2017",
         label: "Jun 2017",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12076,7 +12077,7 @@ export const stockPrices = [
         date: "6/27/2023",
         label: "Jun 2023",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12110,7 +12111,7 @@ export const stockPrices = [
         date: "6/27/2017",
         label: "Jun 2017",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12135,7 +12136,7 @@ export const stockPrices = [
         date: "6/27/2023",
         label: "Jun 2023",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12169,7 +12170,7 @@ export const stockPrices = [
         date: "6/30/1992",
         label: "Jun 1992",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12194,7 +12195,7 @@ export const stockPrices = [
         date: "7/1/1997",
         label: "Jul 1997",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12219,7 +12220,7 @@ export const stockPrices = [
         date: "7/1/2003",
         label: "Jul 2003",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12244,7 +12245,7 @@ export const stockPrices = [
         date: "6/30/2009",
         label: "Jun 2009",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12269,7 +12270,7 @@ export const stockPrices = [
         date: "7/1/2014",
         label: "Jul 2014",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12294,7 +12295,7 @@ export const stockPrices = [
         date: "6/30/2020",
         label: "Jun 2020",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12340,7 +12341,7 @@ export const stockPrices = [
         date: "6/30/2020",
         label: "Jun 2020",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12386,7 +12387,7 @@ export const stockPrices = [
         date: "6/28/2005",
         label: "Jun 2005",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12411,7 +12412,7 @@ export const stockPrices = [
         date: "6/28/2011",
         label: "Jun 2011",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12436,7 +12437,7 @@ export const stockPrices = [
         date: "6/28/2016",
         label: "Jun 2016",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12461,7 +12462,7 @@ export const stockPrices = [
         date: "6/28/2022",
         label: "Jun 2022",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12499,7 +12500,7 @@ export const stockPrices = [
         date: "7/1/1997",
         label: "Jul 1997",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12524,7 +12525,7 @@ export const stockPrices = [
         date: "7/1/2003",
         label: "Jul 2003",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12549,7 +12550,7 @@ export const stockPrices = [
         date: "6/30/2009",
         label: "Jun 2009",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12574,7 +12575,7 @@ export const stockPrices = [
         date: "7/1/2014",
         label: "Jul 2014",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12599,7 +12600,7 @@ export const stockPrices = [
         date: "6/30/2020",
         label: "Jun 2020",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12645,7 +12646,7 @@ export const stockPrices = [
         date: "7/2/2019",
         label: "Jul 2019",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12695,7 +12696,7 @@ export const stockPrices = [
         date: "7/1/1980",
         label: "Jul 1980",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12720,7 +12721,7 @@ export const stockPrices = [
         date: "7/2/1985",
         label: "Jul 1985",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12745,7 +12746,7 @@ export const stockPrices = [
         date: "7/2/1991",
         label: "Jul 1991",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12770,7 +12771,7 @@ export const stockPrices = [
         date: "7/2/1996",
         label: "Jul 1996",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12795,7 +12796,7 @@ export const stockPrices = [
         date: "7/2/2002",
         label: "Jul 2002",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12820,7 +12821,7 @@ export const stockPrices = [
         date: "7/1/2008",
         label: "Jul 2008",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12845,7 +12846,7 @@ export const stockPrices = [
         date: "7/2/2013",
         label: "Jul 2013",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12870,7 +12871,7 @@ export const stockPrices = [
         date: "7/2/2019",
         label: "Jul 2019",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12920,7 +12921,7 @@ export const stockPrices = [
         date: "7/2/2013",
         label: "Jul 2013",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12945,7 +12946,7 @@ export const stockPrices = [
         date: "7/2/2019",
         label: "Jul 2019",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -12995,7 +12996,7 @@ export const stockPrices = [
         date: "6/27/1978",
         label: "Jun 1978",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -13020,7 +13021,7 @@ export const stockPrices = [
         date: "6/26/1984",
         label: "Jun 1984",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -13045,7 +13046,7 @@ export const stockPrices = [
         date: "6/27/1989",
         label: "Jun 1989",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -13070,7 +13071,7 @@ export const stockPrices = [
         date: "6/27/1995",
         label: "Jun 1995",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -13095,7 +13096,7 @@ export const stockPrices = [
         date: "6/27/2000",
         label: "Jun 2000",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -13120,7 +13121,7 @@ export const stockPrices = [
         date: "6/27/2006",
         label: "Jun 2006",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -13145,7 +13146,7 @@ export const stockPrices = [
         date: "6/26/2012",
         label: "Jun 2012",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -13170,7 +13171,7 @@ export const stockPrices = [
         date: "6/27/2017",
         label: "Jun 2017",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -13195,7 +13196,7 @@ export const stockPrices = [
         date: "6/27/2023",
         label: "Jun 2023",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -13229,7 +13230,7 @@ export const stockPrices = [
         date: "7/1/1980",
         label: "Jul 1980",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -13254,7 +13255,7 @@ export const stockPrices = [
         date: "7/2/1985",
         label: "Jul 1985",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -13279,7 +13280,7 @@ export const stockPrices = [
         date: "7/2/1991",
         label: "Jul 1991",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -13304,7 +13305,7 @@ export const stockPrices = [
         date: "7/2/1996",
         label: "Jul 1996",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -13329,7 +13330,7 @@ export const stockPrices = [
         date: "7/2/2002",
         label: "Jul 2002",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -13354,7 +13355,7 @@ export const stockPrices = [
         date: "7/1/2008",
         label: "Jul 2008",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -13379,7 +13380,7 @@ export const stockPrices = [
         date: "7/2/2013",
         label: "Jul 2013",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
@@ -13404,7 +13405,7 @@ export const stockPrices = [
         date: "7/2/2019",
         label: "Jul 2019",
         labelTextStyle: {
-          color: "lightgray",
+          color: '#d3d3d3',
           width: 80,
         },
       },
