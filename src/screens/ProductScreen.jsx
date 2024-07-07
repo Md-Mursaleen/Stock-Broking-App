@@ -190,27 +190,33 @@ const ProductScreen = ({ route }) => {
                         <Text style={styles.valueTextStyle}>${companyData?.['52WeekHigh']}</Text>
                     </View>
                 </View>
-                <View style={[styles.detailsBottomContainer, { marginHorizontal: normalize(0) }]}>
+                <View style={styles.detailsBottomContainer}>
                     <View style={styles.bottomSubContainer}>
-                        <Text style={styles.keyTextStyle}>Market Cap | </Text>
+                        <Text style={styles.keyTextStyle}>Market Cap</Text>
                         <Text style={styles.valueTextStyle}>
                             ${cryptoMarketCap(Number(companyData?.MarketCapitalization))}</Text>
                     </View>
                     <View style={styles.bottomSubContainer}>
-                        <Text style={styles.keyTextStyle}> P/E Ratio | </Text>
+                        <Text style={styles.keyTextStyle}>P/E Ratio</Text>
                         <Text style={styles.valueTextStyle}>{companyData?.PERatio}</Text>
                     </View>
                     <View style={styles.bottomSubContainer}>
-                        <Text style={styles.keyTextStyle}> Beta | </Text>
+                        <Text style={styles.keyTextStyle}>Beta</Text>
                         <Text style={styles.valueTextStyle}>{companyData?.Beta}</Text>
                     </View>
+                </View>
+                <View style={[styles.detailsBottomContainer, { marginTop: normalize(15) }]}>
                     <View style={styles.bottomSubContainer}>
-                        <Text style={styles.keyTextStyle}> Divid. Yield | </Text>
-                        <Text style={styles.valueTextStyle}>{companyData?.DividendYield}%</Text>
+                        <Text style={styles.keyTextStyle}>Dividend Yield</Text>
+                        <Text style={styles.valueTextStyle}>{companyData?.DividendYield || 0}%</Text>
                     </View>
                     <View style={styles.bottomSubContainer}>
-                        <Text style={styles.keyTextStyle}> Profit Margin</Text>
+                        <Text style={styles.keyTextStyle}>Profit Margin</Text>
                         <Text style={styles.valueTextStyle}>{companyData?.ProfitMargin}</Text>
+                    </View>
+                    <View style={styles.bottomSubContainer}>
+                        <Text style={styles.keyTextStyle}>PEG Ratio</Text>
+                        <Text style={styles.valueTextStyle}>{companyData?.PEGRatio}</Text>
                     </View>
                 </View>
             </View>
@@ -362,15 +368,15 @@ const styles = StyleSheet.create({
         color: '#ff0000',
     },
     detailsBottomContainer: {
-        marginHorizontal: normalize(5),
         marginTop: normalize(30),
         flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'space-around',
+        alignItems: 'flex-start',
+        justifyContent: 'space-between',
     },
     bottomSubContainer: {
+        marginHorizontal: normalize(10),
         flexDirection: 'column',
-        alignItems: 'center',
+        alignItems: 'flex-start',
         gap: 3,
     },
     keyTextStyle: {
@@ -387,13 +393,13 @@ const styles = StyleSheet.create({
         flex: 1,
         position: 'relative',
         width: '100%',
-        height: 0,
+        height: 10,
     },
     lineStyle: {
         position: 'absolute',
         top: '50%',
         width: '100%',
-        height: normalize(4),
+        height: normalize(3),
         backgroundColor: '#808080',
     },
 });
