@@ -23,3 +23,5 @@ export default App;
 
 //api connect with the explore screen
 //serach func if possible
+//tab switching problem
+//caching problem

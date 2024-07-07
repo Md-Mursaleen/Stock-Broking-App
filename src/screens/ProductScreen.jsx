@@ -1,22 +1,26 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable react-native/no-inline-styles */
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Text, View, Image, Dimensions, TouchableOpacity, ActivityIndicator, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, Image, Dimensions, TouchableOpacity, TouchableWithoutFeedback, Modal, TextInput, FlatList, ActivityIndicator, ScrollView } from 'react-native';
 import { selectStock } from '../utilis/searchStocks';
 import { normalize } from '../utilis/dimensions';
 import { LineChart } from 'react-native-chart-kit';
-import { fetchStockData, getCompanyOverview } from '../services/api';
+import { fetchStockData, getCompanyOverview, searchStocks } from '../services/api';
 
 const screenWidth = Dimensions.get('window').width;
 
 const ProductScreen = ({ route }) => {
-    const { ticker } = route.params;
+    const { ticker: initialTicker } = route.params;
+    const [ticker, setTicker] = useState(initialTicker);
     const stock = selectStock(ticker);
     const [stockData, setStockData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [interval, setInterval] = useState('1D');
     const [companyData, setCompanyData] = useState(null);
+    const [query, setQuery] = useState('');
+    const [searchResults, setSearchResults] = useState([]);
+    const [showResults, setShowResults] = useState(false);
 
     const intervals = {
         '1D': '1day',
@@ -66,6 +70,46 @@ const ProductScreen = ({ route }) => {
         fetchCompanyData();
     }, [ticker]);
 
+    const handleSearch = async (text) => {
+        setQuery(text);
+        if (text.length > 2) {
+            try {
+                const results = await searchStocks(text);
+                setSearchResults(results);
+                setShowResults(true);
+            } catch (e) {
+                setError(e);
+            }
+        } else {
+            setShowResults(false);
+        }
+    };
+
+    const handleSelectStock = async (selectedTicker) => {
+        setTicker(selectedTicker);
+        setShowResults(false);
+        setQuery('');
+        setLoading(true);
+        try {
+            const { data } = await fetchStockData(selectedTicker, interval);
+            if (data && data.values) {
+                setStockData(data);
+            } else {
+                setError(new Error('No stock data available'));
+            }
+            const companyDataResponse = await getCompanyOverview(selectedTicker);
+            if (companyDataResponse.data) {
+                setCompanyData(companyDataResponse.data);
+            } else {
+                setError(new Error('No company data available'));
+            }
+        } catch (e) {
+            setError(e);
+        } finally {
+            setLoading(false);
+        }
+    };
+
     if (loading) {
         return <ActivityIndicator style={styles.loaderStyle} size="large" />;
     }
@@ -106,8 +150,38 @@ const ProductScreen = ({ route }) => {
         return market_cap;
     };
 
+    const handleCloseModal = () => {
+        setShowResults(false);
+    };
+
     return (
         <ScrollView style={styles.container}>
+            <View style={styles.searchContainer}>
+                <TextInput placeholder="Search Stocks"
+                    placeholderTextColor={'#c7c7cd'}
+                    value={query}
+                    onChangeText={handleSearch}
+                    style={styles.searchTextInputStyle} />
+            </View>
+            <Modal visible={showResults}
+                animationType="slide"
+                transparent={true}>
+                <TouchableWithoutFeedback onPress={() => handleCloseModal()}>
+                    <View style={styles.modalContainer}>
+                        <TouchableWithoutFeedback>
+                            <View style={styles.modalContentContainer}>
+                                <FlatList data={searchResults}
+                                    keyExtractor={(item) => item.symbol}
+                                    renderItem={({ item }) => (
+                                        <TouchableOpacity onPress={() => handleSelectStock(item.symbol)}>
+                                            <Text style={styles.searchResultsStyle}>{item.name} ({item.symbol})</Text>
+                                        </TouchableOpacity>
+                                    )} />
+                            </View>
+                        </TouchableWithoutFeedback>
+                    </View>
+                </TouchableWithoutFeedback>
+            </Modal>
             <View style={styles.headerContainer}>
                 <View style={styles.headerSubContainer}>
                     <View style={styles.imageContainer}>
@@ -393,7 +467,6 @@ const styles = StyleSheet.create({
         flex: 1,
         position: 'relative',
         width: '100%',
-        height: 10,
     },
     lineStyle: {
         position: 'absolute',
@@ -401,5 +474,54 @@ const styles = StyleSheet.create({
         width: '100%',
         height: normalize(3),
         backgroundColor: '#808080',
+    },
+    searchTextInputStyle: {
+        flex: 1,
+        paddingHorizontal: normalize(10),
+        height: normalize(40),
+        backgroundColor: '#ffffff',
+        color: '#000000',
+        borderRadius: 5,
+    },
+    searchResultsContainer: {
+        position: 'absolute',
+        top: normalize(45),
+        left: normalize(0),
+        right: normalize(0),
+        backgroundColor: '#ffffff',
+        borderWidth: 1,
+        borderColor: '#cccccc',
+        borderRadius: 5,
+        zIndex: 1000,
+    },
+    searchContainer: {
+        paddingHorizontal: normalize(10),
+        paddingVertical: normalize(5),
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        backgroundColor: '#ffffff',
+        borderBottomWidth: 1,
+        borderBottomColor: '#cccccc',
+    },
+    modalContainer: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    },
+    modalContentContainer: {
+        padding: normalize(20),
+        width: '80%',
+        backgroundColor: '#ffffff',
+        borderRadius: 10,
+    },
+    searchResultsStyle: {
+        padding: normalize(10),
+        fontSize: 14,
+        fontWeight: '500',
+        color: '#000000',
+        borderBottomWidth: 1,
+        borderBottomColor: '#cccccc',
     },
 });
