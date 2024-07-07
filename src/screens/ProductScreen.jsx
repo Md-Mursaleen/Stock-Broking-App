@@ -5,7 +5,7 @@ import { StyleSheet, Text, View, Image, Dimensions, TouchableOpacity, ActivityIn
 import { selectStock } from '../utilis/searchStocks';
 import { normalize } from '../utilis/dimensions';
 import { LineChart } from 'react-native-chart-kit';
-import { fetchStockData } from '../services/api';
+import { fetchStockData, getCompanyOverview } from '../services/api';
 
 const screenWidth = Dimensions.get('window').width;
 
@@ -16,6 +16,7 @@ const ProductScreen = ({ route }) => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [interval, setInterval] = useState('1D');
+    const [companyData, setCompanyData] = useState(null);
 
     const intervals = {
         '1D': '1day',
@@ -31,15 +32,39 @@ const ProductScreen = ({ route }) => {
             setLoading(true);
             try {
                 const { data } = await fetchStockData(ticker, interval);
-                setStockData(data);
-                setLoading(false);
+                if (data && data.values) {
+                    setStockData(data);
+                } else {
+                    setError(new Error('No stock data available'));
+                }
             } catch (e) {
                 setError(e);
+            } finally {
                 setLoading(false);
             }
         };
         fetchData();
     }, [ticker, interval]);
+
+    useEffect(() => {
+        const fetchCompanyData = async () => {
+            setLoading(true);
+            try {
+                const { data } = await getCompanyOverview(ticker);
+                if (data) {
+                    setCompanyData(data);
+                } else {
+                    setError(new Error('No company data available'));
+                }
+            } catch (e) {
+                setError(e);
+            } finally {
+                setLoading(false);
+            }
+
+        };
+        fetchCompanyData();
+    }, [ticker]);
 
     if (loading) {
         return <ActivityIndicator style={styles.loaderStyle} size="large" />;
@@ -49,11 +74,14 @@ const ProductScreen = ({ route }) => {
         return <Text style={styles.errorTextStyle}>Error fetching data</Text>;
     }
 
+    let startIndex = 0;
+    let endIndex = stockData?.values?.length > 10 ? 10 : stockData?.values?.length;
+
     const chartData = {
-        labels: stockData.values.slice([0], [15]).map(value => new Date(value.datetime).getDate()),
+        labels: stockData?.values?.length > 0 ? stockData?.values?.slice([startIndex], [endIndex]).map(value => new Date(value.datetime).getDate()) : [],
         datasets: [
             {
-                data: stockData.values.map(value => parseFloat(value.close)),
+                data: stockData?.values?.length > 0 ? stockData?.values?.map(value => parseFloat(value?.close)) : [],
             },
         ],
     };
@@ -62,29 +90,45 @@ const ProductScreen = ({ route }) => {
         return string?.length > n ? string.substr(0, n - 1) + '..' : string;
     }
 
+    const cryptoMarketCap = (market_cap) => {
+        if (market_cap > 1e12) {
+            return `${(market_cap / 1e12).toFixed(2)} Tn`;
+        }
+        if (market_cap > 1e9) {
+            return `${(market_cap / 1e9).toFixed(2)} Bn`;
+        }
+        if (market_cap > 1e6) {
+            return `${(market_cap / 1e6).toFixed(2)} Mn`;
+        }
+        if (market_cap > 1e3) {
+            return `${(market_cap / 1e3).toFixed(2)} K`;
+        }
+        return market_cap;
+    };
+
     return (
         <ScrollView style={styles.container}>
             <View style={styles.headerContainer}>
                 <View style={styles.headerSubContainer}>
                     <View style={styles.imageContainer}>
-                        <Image source={{ uri: stock.image }} style={styles.imageStyle} />
+                        <Image source={{ uri: stock?.image }} style={styles.imageStyle} />
                     </View>
                     <View style={styles.textContainer}>
-                        <Text style={styles.nameTextStyle}>{stock.companyName.toUpperCase()}</Text>
-                        <Text style={styles.tickerTextStyle}>{stock.ticker}, Comman Stock</Text>
-                        <Text style={styles.exchangeTextStyle}>{stock.exchange}</Text>
+                        <Text style={styles.nameTextStyle}>{stock?.companyName.toUpperCase()}</Text>
+                        <Text style={styles.tickerTextStyle}>{stock?.ticker}, {companyData?.AssetType}</Text>
+                        <Text style={styles.exchangeTextStyle}>{stock?.exchange}</Text>
                     </View>
                 </View>
                 <View>
-                    <Text style={styles.priceTextStyle}>${stock.price.toFixed(2)}</Text>
+                    <Text style={styles.priceTextStyle}>${stock?.price.toFixed(2)}</Text>
                     <View style={styles.percentageChangeContainer}>
                         <Text style={[styles.percentageChangeTextStyle,
-                        { color: parseFloat(stock.priceChangePercentage) > 0 ? '#008000' : '#ff0000' }]}>
-                            {parseFloat(stock.priceChangePercentage).toFixed(2)}%
+                        { color: parseFloat(stock?.priceChangePercentage) > 0 ? '#008000' : '#ff0000' }]}>
+                            {parseFloat(stock?.priceChangePercentage).toFixed(2)}%
                         </Text>
                         <Text style={[styles.percentageChangeTextStyle,
-                        { color: parseFloat(stock.priceChangePercentage) > 0 ? '#008000' : '#ff0000' }]}>
-                            {parseFloat(stock.priceChangePercentage) > 0 ? '▲' : '▼'}</Text>
+                        { color: parseFloat(stock?.priceChangePercentage) > 0 ? '#008000' : '#ff0000' }]}>
+                            {parseFloat(stock?.priceChangePercentage) > 0 ? '▲' : '▼'}</Text>
                     </View>
                 </View>
             </View>
@@ -112,7 +156,7 @@ const ProductScreen = ({ route }) => {
                     bezier
                     style={{ marginVertical: normalize(10) }} />
                 <View style={styles.filterContainer}>
-                    {Object.keys(intervals).map(key => (
+                    {Object?.keys(intervals).map(key => (
                         <TouchableOpacity key={key} onPress={() => setInterval(key)}
                             style={[styles.filterButtonContainer,
                             interval === key ? { backgroundColor: '#a9613b' } : null]}>
@@ -123,14 +167,50 @@ const ProductScreen = ({ route }) => {
                 </View>
             </View>
             <View style={styles.detailsContainer}>
-                <Text style={styles.textStyle}>About {stock.companyName.toUpperCase()}</Text>
-                <Text style={styles.descriptionTextStyle}>{stock.description}</Text>
+                <Text style={styles.textStyle}>About {stock?.companyName.toUpperCase()}</Text>
+                <Text style={styles.descriptionTextStyle}>{companyData?.Description}</Text>
                 <View style={styles.detailsSubContainer}>
                     <View style={styles.detailSubContainer}>
-                        <Text style={styles.detailTextStyle}>Industry: {stock.industry}</Text>
+                        <Text style={styles.detailTextStyle}>Industry: {truncate(companyData?.Industry, 15)}</Text>
                     </View>
                     <View style={styles.detailSubContainer}>
-                        <Text style={styles.detailTextStyle}>Sector: {truncate(stock.sector, 15)}</Text>
+                        <Text style={styles.detailTextStyle}>Sector: {truncate(companyData?.Sector, 10)}</Text>
+                    </View>
+                </View>
+                <View style={[styles.detailsBottomContainer, { justifyContent: 'space-between' }]}>
+                    <View style={[styles.bottomSubContainer, { alignItems: 'flex-start' }]}>
+                        <Text style={styles.keyTextStyle}>52 Week Low</Text>
+                        <Text style={styles.valueTextStyle}>${companyData?.['52WeekLow']}</Text>
+                    </View>
+                    <View style={styles.lineContainer}>
+                        <View style={styles.lineStyle} />
+                    </View>
+                    <View style={[styles.bottomSubContainer, { alignItems: 'flex-end' }]}>
+                        <Text style={styles.keyTextStyle}>52 Week High</Text>
+                        <Text style={styles.valueTextStyle}>${companyData?.['52WeekHigh']}</Text>
+                    </View>
+                </View>
+                <View style={[styles.detailsBottomContainer, { marginHorizontal: normalize(0) }]}>
+                    <View style={styles.bottomSubContainer}>
+                        <Text style={styles.keyTextStyle}>Market Cap | </Text>
+                        <Text style={styles.valueTextStyle}>
+                            ${cryptoMarketCap(Number(companyData?.MarketCapitalization))}</Text>
+                    </View>
+                    <View style={styles.bottomSubContainer}>
+                        <Text style={styles.keyTextStyle}> P/E Ratio | </Text>
+                        <Text style={styles.valueTextStyle}>{companyData?.PERatio}</Text>
+                    </View>
+                    <View style={styles.bottomSubContainer}>
+                        <Text style={styles.keyTextStyle}> Beta | </Text>
+                        <Text style={styles.valueTextStyle}>{companyData?.Beta}</Text>
+                    </View>
+                    <View style={styles.bottomSubContainer}>
+                        <Text style={styles.keyTextStyle}> Divid. Yield | </Text>
+                        <Text style={styles.valueTextStyle}>{companyData?.DividendYield}%</Text>
+                    </View>
+                    <View style={styles.bottomSubContainer}>
+                        <Text style={styles.keyTextStyle}> Profit Margin</Text>
+                        <Text style={styles.valueTextStyle}>{companyData?.ProfitMargin}</Text>
                     </View>
                 </View>
             </View>
@@ -218,7 +298,8 @@ const styles = StyleSheet.create({
         borderRadius: 8,
     },
     detailsContainer: {
-        padding: normalize(10),
+        paddingHorizontal: normalize(11),
+        paddingVertical: normalize(13),
         marginHorizontal: normalize(10),
         marginVertical: normalize(20),
         borderWidth: StyleSheet.hairlineWidth,
@@ -234,7 +315,7 @@ const styles = StyleSheet.create({
     descriptionTextStyle: {
         marginTop: normalize(5),
         fontSize: 12,
-        fontWeight: '500',
+        fontWeight: '400',
         color: '#000000',
     },
     detailsSubContainer: {
@@ -279,5 +360,40 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         color: '#ff0000',
+    },
+    detailsBottomContainer: {
+        marginHorizontal: normalize(5),
+        marginTop: normalize(30),
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-around',
+    },
+    bottomSubContainer: {
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: 3,
+    },
+    keyTextStyle: {
+        fontSize: 14,
+        fontWeight: '500',
+        color: '#808080',
+    },
+    valueTextStyle: {
+        fontSize: 13,
+        fontWeight: '600',
+        color: '#000000',
+    },
+    lineContainer: {
+        flex: 1,
+        position: 'relative',
+        width: '100%',
+        height: 0,
+    },
+    lineStyle: {
+        position: 'absolute',
+        top: '50%',
+        width: '100%',
+        height: normalize(4),
+        backgroundColor: '#808080',
     },
 });
