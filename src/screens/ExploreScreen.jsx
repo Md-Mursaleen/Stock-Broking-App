@@ -17,8 +17,15 @@ const StockList = ({ data, refreshing, onRefresh }) => (
         contentContainerStyle={styles.contentContainerStyle}
         refreshControl={
             <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
-        }
-    />
+        } />
+);
+
+const GainersRoute = ({ data, refreshing, onRefresh }) => (
+    <StockList data={data.gainers} refreshing={refreshing} onRefresh={onRefresh} />
+);
+
+const LosersRoute = ({ data, refreshing, onRefresh }) => (
+    <StockList data={data.losers} refreshing={refreshing} onRefresh={onRefresh} />
 );
 
 const ExploreScreen = () => {
@@ -36,16 +43,16 @@ const ExploreScreen = () => {
         let gainers = [];
         let losers = [];
         try {
-            stocks.map((item) => {
+            stocks.forEach((item) => {
                 if (item.priceChangePercentage > 0) {
                     gainers.push(item);
                 } else {
                     losers.push(item);
                 }
             });
-            setData({ gainers: gainers, losers: losers });
+            setData({ gainers, losers });
         } catch (error) {
-            console.log(error);
+            console.error('Data fetch error: ', error);
         } finally {
             setLoading(false);
         }
@@ -62,12 +69,8 @@ const ExploreScreen = () => {
     };
 
     const renderScene = SceneMap({
-        gainers: () => (
-            <StockList data={data.gainers} refreshing={refreshing} onRefresh={onRefresh} />
-        ),
-        losers: () => (
-            <StockList data={data.losers} refreshing={refreshing} onRefresh={onRefresh} />
-        ),
+        gainers: () => <GainersRoute data={data} refreshing={refreshing} onRefresh={onRefresh} />,
+        losers: () => <LosersRoute data={data} refreshing={refreshing} onRefresh={onRefresh} />,
     });
 
     if (loading) {
@@ -77,12 +80,14 @@ const ExploreScreen = () => {
     return (
         <TabView navigationState={{ index, routes }}
             renderScene={renderScene}
-            onIndexChange={setIndex}
+            onIndexChange={(i) => {
+                setIndex(i);
+            }}
             initialLayout={{ width: Dimensions.get('window').width }}
             renderTabBar={props => (
                 <TabBar {...props}
                     labelStyle={styles.labelStyle}
-                    indicatorStyle={{ backgroundColor: 'trainsparent' }}
+                    indicatorStyle={{ backgroundColor: 'transparent' }}
                     style={styles.tabStyle} />
             )} style={{ backgroundColor: '#ffffff' }} />
     );
